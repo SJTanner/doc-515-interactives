@@ -1,0 +1,361 @@
+{
+  "title": "Sequence Builder: From Shot to Sequence",
+  "course": "DOC 515",
+  "intro": {
+    "eyebrow": "DOC 515 · Documentary Foundations",
+    "heading": "Build the Sequence",
+    "body": "Documentary form begins with a small decision: where to look, when to stay, and what must come next. Before you arrange the potter’s process, move through three scales of visual thought—shot, sequence, and scene.",
+    "heroFrameId": "F1",
+    "heroLabel": "Observation begins before action",
+    "heroNote": "One place. One contributor. One process about to begin.",
+    "grammarEyebrow": "A field grammar",
+    "grammarHeading": "Shot. Sequence. Scene.",
+    "grammarBody": "These are not merely different sizes of coverage. Each one does a different kind of documentary work. Learn to recognize the unit you are making while the camera is still rolling.",
+    "grammarUnits": [
+      {
+        "number": "01",
+        "term": "Shot",
+        "tagline": "A unit of attention",
+        "definition": "One continuous observation from cut to cut. A shot selects a fragment of reality and asks us to notice it: a face thinking, a foot finding the pedal, wet fingers meeting clay.",
+        "potterExample": "The foot presses the pedal. In one shot, cause becomes visible.",
+        "question": "What does this image prove?"
+      },
+      {
+        "number": "02",
+        "term": "Sequence",
+        "tagline": "A chain of visual evidence",
+        "definition": "Several shots joined by action, process, space, or idea. A sequence lets the viewer reconstruct how something happens—even when real time has been compressed.",
+        "potterExample": "Clay placed → wheel started → center opened → walls raised → bowl revealed.",
+        "question": "Can the viewer follow the change?"
+      },
+      {
+        "number": "03",
+        "term": "Scene",
+        "tagline": "Lived time under pressure",
+        "definition": "A scene unfolds in a particular place and present tense. It contains a dynamic: a desire, obstacle, uncertainty, encounter, or turn. A scene may hold one sequence—or several.",
+        "potterExample": "The potter works to hold a collapsing rim while a customer waits. Process now carries tension.",
+        "question": "What can change before we leave?"
+      }
+    ],
+    "grammarFormula": [
+      { "label": "Shot", "value": "evidence" },
+      { "label": "Sequence", "value": "relation" },
+      { "label": "Scene", "value": "experience" }
+    ],
+    "fieldNoteHeading": "The camera records shots. The filmmaker constructs meaning.",
+    "fieldNoteBody": "On location, do not collect images as insurance. Film the states of change: before, cause, transformation, consequence, result. Then stay awake for the human detail that turns a process into lived experience.",
+    "instructionsHeading": "Your construction",
+    "instructions": [
+      "Arrange the images into an intelligible order.",
+      "Compare your construction with the model sequence.",
+      "Remove one shot and consider what changes.",
+      "Choose the shot you believe is indispensable.",
+      "Complete a brief reflection."
+    ],
+    "beginPrompt": "Ten frames. One process. Build the visual logic.",
+    "beginLabel": "Enter the Sequence"
+  },
+  "stages": [
+    { "id": "arrange", "number": 1, "label": "Arrange" },
+    { "id": "remove", "number": 2, "label": "Remove" },
+    { "id": "choose", "number": 3, "label": "Choose" },
+    { "id": "reflect", "number": 4, "label": "Reflect" }
+  ],
+  "scrambledOrder": [
+    "F10",
+    "F4",
+    "F1",
+    "F5",
+    "F2",
+    "F8",
+    "F3",
+    "F7",
+    "F6",
+    "F9"
+  ],
+  "modelOrder": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10"
+  ],
+  "coherentOrders": [
+    ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10"],
+    ["F1", "F2", "F3", "F4", "F5", "F6", "F8", "F7", "F9", "F10"],
+    ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F10", "F9"]
+  ],
+  "coreOrder": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F8",
+    "F10"
+  ],
+  "arrange": {
+    "eyebrow": "Stage 1 · Arrange",
+    "heading": "What does the viewer need to see—and when?",
+    "instruction": "Drag the frames into an intelligible order, or use the move controls on each card. Build a beginning, a developing action, and a visible result.",
+    "positionLabel": "Sequence position",
+    "moveStartLabel": "Move to beginning",
+    "moveLeftLabel": "Move left",
+    "moveRightLabel": "Move right",
+    "moveEndLabel": "Move to end",
+    "checkLabel": "Check Sequence",
+    "resetLabel": "Reset",
+    "resetMessage": "The original scrambled order has been restored.",
+    "movedMessage": "{label} moved to position {position}."
+  },
+  "sequenceFeedback": {
+    "eyebrow": "Sequence feedback",
+    "heading": "Read the movement you built",
+    "categories": {
+      "intelligible": {
+        "label": "Intelligible sequence",
+        "body": "Your sequence is intelligible. The action progresses clearly from setup through transformation to result. Notice how the cutaways can create rhythm and soften transitions between similar framings."
+      },
+      "partial": {
+        "label": "Partly intelligible sequence",
+        "body": "Your sequence contains the necessary material, but part of the action is out of order. Check whether the beginning, cause, transformation, development, and result are all clearly connected."
+      },
+      "unclear": {
+        "label": "Unclear sequence",
+        "body": "The viewer may struggle to understand how the action develops. Begin by identifying the starting condition, what causes the wheel to move, how the clay changes, and where the process ends."
+      }
+    },
+    "studentOrderLabel": "Your order",
+    "modelOrderLabel": "Model order",
+    "compareLabel": "Compare Side by Side",
+    "hideCompareLabel": "Hide Visual Comparison",
+    "continueLabel": "Continue to Shot Removal"
+  },
+  "removal": {
+    "eyebrow": "Stage 2 · Remove",
+    "heading": "Test the structure",
+    "instruction": "Remove one shot. Then consider what becomes weaker, rougher, or less clear.",
+    "selectInstruction": "Select a frame, then remove it from the sequence.",
+    "removeLabel": "Remove Shot",
+    "removedAreaLabel": "Removed Shot",
+    "restoreLabel": "Restore Shot",
+    "prompt": "What changes when this shot is removed?",
+    "minimumCharacters": 20,
+    "minimumHint": "Write at least 20 characters before viewing feedback.",
+    "showFeedbackLabel": "Show Feedback",
+    "continueLabel": "Continue to Indispensable Shot",
+    "selectionRequired": "Select a frame to remove.",
+    "responseRequired": "Write at least 20 characters about what changed.",
+    "feedback": {
+      "F1": "The action may still be understandable, but the viewer loses orientation. Place, contributor, and starting context are weakened.",
+      "F2": "The sequence loses part of its beginning. The viewer no longer clearly sees the material before the transformation starts.",
+      "F3": "Cause and effect are weakened. The viewer no longer sees what sets the wheel in motion.",
+      "F4": "A major process stage is missing. The clay appears to move too quickly from setup toward transformation.",
+      "F5": "A critical transformation is missing. The viewer does not clearly see how the solid clay begins to become a vessel.",
+      "F6": "The sequence loses a major stage of development. The bowl appears to form without enough visual evidence of how it grew.",
+      "F7": "The sequence remains intelligible, but it loses a moment of concentration and human presence. The edit may also feel more abrupt between similar action framings.",
+      "F8": "The sequence loses the stage where the rough form is refined. The transition toward completion becomes less clear.",
+      "F9": "The sequence remains intelligible, but the transition toward the completed bowl may feel more abrupt. The detailed craft of refining the rim is also reduced.",
+      "F10": "The sequence loses its visible result. The viewer sees the process but does not clearly arrive at completion."
+    },
+    "bothCutawaysFeedback": "The action can still be followed, but the sequence now feels visually abrupt. Direct cuts between similar framings create a jump-cut effect."
+  },
+  "indispensable": {
+    "eyebrow": "Stage 3 · Choose",
+    "heading": "Name the load-bearing shot",
+    "instruction": "Select the one shot you believe the sequence would be hardest to understand without.",
+    "prompt": "Why is this shot indispensable?",
+    "minimumCharacters": 20,
+    "minimumHint": "Write at least 20 characters before viewing feedback.",
+    "showFeedbackLabel": "Show Feedback",
+    "continueLabel": "Complete Reflection",
+    "selectionRequired": "Select the shot you believe is indispensable.",
+    "responseRequired": "Write at least 20 characters explaining your choice.",
+    "feedback": {
+      "F1": "Strong choice. This shot establishes the contributor, activity, and location before the process begins.",
+      "F2": "This is a defensible choice. The shot carries an important stage of the action, and removing it would weaken the sequence’s progression.",
+      "F3": "Good choice. This shot clarifies cause and effect by showing how the wheel starts moving.",
+      "F4": "This is a defensible choice. The shot carries an important stage of the action, and removing it would weaken the sequence’s progression.",
+      "F5": "Strong choice. This shot shows the central transformation from solid clay toward a vessel.",
+      "F6": "This is a defensible choice. The shot carries an important stage of the action, and removing it would weaken the sequence’s progression.",
+      "F7": "This shot is valuable, but it is more supportive than essential. It improves pacing, texture, and continuity rather than carrying the principal action.",
+      "F8": "This is a defensible choice. The shot carries an important stage of the action, and removing it would weaken the sequence’s progression.",
+      "F9": "This shot is valuable, but it is more supportive than essential. It improves pacing, texture, and continuity rather than carrying the principal action.",
+      "F10": "Good choice. The completed bowl gives the sequence a visible result and a natural ending."
+    }
+  },
+  "reflection": {
+    "eyebrow": "Stage 4 · Reflect",
+    "heading": "Carry the sequence into your own filming",
+    "instruction": "Move from this particular bowl toward a principle you can use on location.",
+    "prompts": [
+      { "id": "makesSequence", "label": "What makes this a sequence rather than a collection of images?" },
+      { "id": "leastDamage", "label": "Which shot could be removed with the least damage?" },
+      { "id": "cutawaysAdd", "label": "What did the cutaway shots add?" },
+      { "id": "futureAttention", "label": "What will you pay more attention to when filming your own sequence?" }
+    ],
+    "createSummaryLabel": "Create Summary"
+  },
+  "summary": {
+    "eyebrow": "Reflection complete",
+    "heading": "Your sequence notes",
+    "instruction": "Copy or download this plain-text record for your own production notebook. Nothing is submitted to Canvas.",
+    "documentHeading": "DOC 515 — Sequence Builder Reflection",
+    "labels": {
+      "order": "My sequence order",
+      "removed": "Shot removed",
+      "changed": "What changed",
+      "indispensable": "My indispensable shot",
+      "why": "Why",
+      "makesSequence": "What makes this a sequence",
+      "leastDamage": "Shot that could be removed",
+      "cutawaysAdd": "What the cutaways added",
+      "futureAttention": "What I will consider when filming"
+    },
+    "copyLabel": "Copy Summary",
+    "copiedLabel": "Summary copied",
+    "downloadLabel": "Download as Text File",
+    "startAgainLabel": "Start Again"
+  },
+  "conclusion": {
+    "eyebrow": "Conclusion · From exercise to field",
+    "heading": "Coverage is not insurance. It is thinking in pictures.",
+    "body": "The bowl was a contained process. Documentary life will be messier: gestures overlap, access narrows, people change their minds, and the essential moment rarely announces itself. The discipline remains the same—recognize what the viewer must see, then film the relationships between those moments.",
+    "principles": [
+      {
+        "number": "I",
+        "title": "A shot gives evidence.",
+        "body": "Choose a precise action, expression, object, or spatial fact. Hold long enough for its meaning to arrive."
+      },
+      {
+        "number": "II",
+        "title": "A sequence makes change legible.",
+        "body": "Film before and after, cause and effect, effort and result. Cutaways can shape rhythm, but they cannot replace missing action."
+      },
+      {
+        "number": "III",
+        "title": "A scene gives the change stakes.",
+        "body": "Look for desire, resistance, uncertainty, discovery, and consequence—the forces that make process matter to a person."
+      }
+    ],
+    "fieldHeading": "Before you leave the location",
+    "fieldNotes": [
+      "Do I have the starting condition before anything changes?",
+      "Did I film the cause—not only the effect?",
+      "Can the viewer follow the transformation without explanation?",
+      "Do I have a human detail that carries attention or feeling?",
+      "Did I stay for the consequence and a visible ending?"
+    ],
+    "closingLine": "A sequence answers how. A scene lets us feel why it matters."
+  },
+  "utility": {
+    "clearProgressLabel": "Clear Saved Progress",
+    "clearConfirm": "Clear this activity and return to the beginning?",
+    "clearCancelLabel": "Cancel",
+    "clearConfirmLabel": "Yes, clear progress",
+    "storageUnavailable": "This activity is still usable, but progress cannot be saved in this browser.",
+    "loadErrorHeading": "The sequence could not load.",
+    "loadErrorBody": "Make sure the activity is being opened from a local or hosted web server and that data/sequence-data.json is available.",
+    "selectShotLabel": "Select {label}",
+    "selectedLabel": "Selected",
+    "notProvided": "—"
+  },
+  "frames": [
+    {
+      "id": "F1",
+      "file": "images/01_ESTABLISHING_WIDE.jpg",
+      "label": "Establishing wide",
+      "caption": "Wide view of the potter at work in her studio.",
+      "alt": "Wide documentary-style view of a silver-haired woman potter at her wheel in a working pottery studio.",
+      "role": "essential",
+      "function": "place, contributor, starting condition"
+    },
+    {
+      "id": "F2",
+      "file": "images/02_CLAY_ON_WHEEL.jpg",
+      "label": "Clay placed",
+      "caption": "The potter places a rough lump of clay on the wheel.",
+      "alt": "Medium shot of the potter placing a lump of clay on the center of the wheel.",
+      "role": "essential",
+      "function": "begins action"
+    },
+    {
+      "id": "F3",
+      "file": "images/03_PEDAL_STARTS_WHEEL.jpg",
+      "label": "Wheel starts",
+      "caption": "The foot presses the pedal and the wheel begins to turn.",
+      "alt": "Close shot of the potter's foot pressing the wheel pedal.",
+      "role": "essential",
+      "function": "cause of motion"
+    },
+    {
+      "id": "F4",
+      "file": "images/04_CENTERING_CLAY.jpg",
+      "label": "Centering",
+      "caption": "The clay is centered as the wheel spins.",
+      "alt": "Close shot of wet hands centering spinning clay on the wheel.",
+      "role": "essential",
+      "function": "first process stage"
+    },
+    {
+      "id": "F5",
+      "file": "images/05_OPENING_CENTER.jpg",
+      "label": "Opening center",
+      "caption": "The potter opens the center, beginning the vessel.",
+      "alt": "Close shot of fingers opening the center of the clay to form a vessel.",
+      "role": "essential",
+      "function": "critical transformation"
+    },
+    {
+      "id": "F6",
+      "file": "images/06_RAISING_WALLS.jpg",
+      "label": "Raising walls",
+      "caption": "The walls rise and the bowl starts to take shape.",
+      "alt": "Medium shot of the potter drawing the clay upward as the bowl walls rise.",
+      "role": "essential",
+      "function": "development"
+    },
+    {
+      "id": "F7",
+      "file": "images/07_FACE_CUTAWAY.jpg",
+      "label": "Face cutaway",
+      "caption": "A cutaway to the potter's concentrated face.",
+      "alt": "Close-up of the potter's face showing focused concentration.",
+      "role": "supportive",
+      "function": "character, pacing, continuity"
+    },
+    {
+      "id": "F8",
+      "file": "images/08_SHAPING_RIM.jpg",
+      "label": "Shaping rim",
+      "caption": "The rim is refined and shaped.",
+      "alt": "Medium shot of the potter refining and shaping the bowl's rim.",
+      "role": "essential",
+      "function": "refinement toward completion"
+    },
+    {
+      "id": "F9",
+      "file": "images/09_HAND_CUTAWAY_RIM.jpg",
+      "label": "Hand-detail cutaway",
+      "caption": "A detail cutaway of hands refining the rim.",
+      "alt": "Close detail of hands smoothing and shaping the rim.",
+      "role": "supportive",
+      "function": "detail, pacing, continuity"
+    },
+    {
+      "id": "F10",
+      "file": "images/10_COMPLETED_BOWL.jpg",
+      "label": "Completed bowl",
+      "caption": "The completed bowl is shown.",
+      "alt": "Medium shot of the completed bowl resting on the wheel in front of the potter.",
+      "role": "essential",
+      "function": "result and ending"
+    }
+  ]
+}

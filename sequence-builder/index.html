@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="An interactive DOC 515 activity about building a documentary sequence from shots.">
+    <title>Sequence Builder: From Shot to Sequence</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#activity-main">Skip to activity</a>
+
+    <header class="site-header">
+      <div class="brand-lockup">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <p class="brand-course">DOC 515</p>
+          <p class="brand-title">Sequence Builder</p>
+        </div>
+      </div>
+      <button class="button button-quiet" id="clear-progress" type="button" disabled>
+        Clear Saved Progress
+      </button>
+    </header>
+
+    <nav class="stage-nav" aria-label="Activity stages" hidden>
+      <ol id="stage-list"></ol>
+    </nav>
+
+    <main id="activity-main" tabindex="-1">
+      <div id="app" class="app-shell" aria-busy="true">
+        <section class="loading-panel" aria-label="Loading activity">
+          <p class="eyebrow">DOC 515 · Documentary Foundations</p>
+          <h1>Loading the sequence…</h1>
+        </section>
+      </div>
+    </main>
+
+    <div class="clear-dialog" id="clear-dialog" role="dialog" aria-modal="true" aria-labelledby="clear-dialog-title" hidden>
+      <div class="clear-dialog-card">
+        <h2 id="clear-dialog-title">Clear saved progress?</h2>
+        <p id="clear-dialog-copy"></p>
+        <div class="button-row">
+          <button class="button button-quiet" id="clear-cancel" type="button">Cancel</button>
+          <button class="button button-danger" id="clear-confirm" type="button">Yes, clear progress</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+    <div class="visually-hidden" id="live-region" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <noscript>
+      <div class="noscript-message">This activity needs JavaScript in order to move, compare, remove, and export the sequence.</div>
+    </noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>
