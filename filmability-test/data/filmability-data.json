@@ -1,0 +1,455 @@
+{
+  "title": "Filmability Test: Is There a Film Here?",
+  "courseContext": "DOC 515 — Foundations of Documentary Filmmaking · Module 1 — Finding the Film · Week 1 — From Topic to Filmable Story",
+  "stages": [
+    { "id": "intro", "long": "Introduction", "short": "Intro" },
+    { "id": "framework", "long": "Filmability framework", "short": "Framework" },
+    { "id": "scenarios", "long": "Six scenario exercises", "short": "Examples" },
+    { "id": "compare", "long": "Comparative challenge", "short": "Compare" },
+    { "id": "own", "long": "Student’s own idea", "short": "Your Idea" },
+    { "id": "reflect", "long": "Reflection", "short": "Reflect" },
+    { "id": "summary", "long": "Exportable summary", "short": "Summary" }
+  ],
+  "introduction": {
+    "heading": "Is There a Film Here?",
+    "paragraphs": [
+      "Documentaries often begin with subjects that matter deeply to the filmmaker.",
+      "But importance alone does not make a film.",
+      "A documentary needs something the camera can encounter: a person, activity, place, relationship, attempt, decision, event, or change.",
+      "In this exercise, you will examine several documentary ideas and consider what makes each one more—or less—filmable."
+    ],
+    "instructionsHeading": "For each example:",
+    "instructions": [
+      "identify the broad topic;",
+      "identify what the camera could actually film;",
+      "consider access and practical scale;",
+      "choose what would make the project stronger;",
+      "compare your judgment with narrative feedback."
+    ],
+    "button": "Begin",
+    "imageDisclosure": "Some scenario images are simulated teaching illustrations and do not depict real documentary contributors or events."
+  },
+  "frameworkHeading": "A filmability framework",
+  "framework": [
+    { "id": "who", "title": "Who?", "text": "Is there a particular person or small group through whom the subject can be experienced?" },
+    { "id": "activity", "title": "What are they doing?", "text": "Is there meaningful activity, work, preparation, interaction, decision, or change?" },
+    { "id": "where", "title": "Where?", "text": "Is there a specific location the filmmaker can enter?" },
+    { "id": "development", "title": "What might develop?", "text": "Is there an attempt, deadline, transformation, uncertainty, arrival, departure, success, failure, or decision?" },
+    { "id": "access", "title": "Can the filmmaker be there?", "text": "Is access realistic, sustained, and ethically appropriate?" },
+    { "id": "scale", "title": "Is the scale manageable?", "text": "Can the idea be filmed locally, within the course period, and shaped into 3–5 minutes?" }
+  ],
+  "frameworkNote": "These questions do not produce a formula. They provide a way to examine whether an idea gives the camera something meaningful to encounter.",
+  "frameworkButton": "Explore the Examples",
+  "scenariosHeading": "Explore the examples",
+  "scenarios": [
+    {
+      "id": "loneliness",
+      "topic": "Loneliness among older adults.",
+      "image": "images/loneliness-dance-class.jpg",
+      "alt": "Older adults rehearsing together in a modest community dance hall.",
+      "initialIdea": "I want to make a documentary about loneliness among older people in America.",
+      "questions": [
+        {
+          "id": "loneliness-weakness",
+          "type": "single",
+          "prompt": "What is the principal weakness of this idea as currently stated?",
+          "options": [
+            { "id": "a", "text": "It is not an important subject." },
+            { "id": "b", "text": "It is too broad and does not yet identify a filmable situation." },
+            { "id": "c", "text": "Older people should not appear in documentaries." },
+            { "id": "d", "text": "The film would require professional actors." }
+          ],
+          "preferred": ["b"],
+          "preferredFeedback": "The subject may be important, but the idea does not yet tell us who the camera will follow, what will happen, or where filming will take place. The next step is not to abandon the topic. It is to find a particular human situation through which loneliness can become visible.",
+          "otherFeedback": "The central problem is not the importance of the subject or the age of the contributors. The idea remains broad and does not yet identify a person, activity, place, or developing situation."
+        },
+        {
+          "id": "loneliness-version",
+          "type": "single",
+          "prompt": "Which version is more filmable?",
+          "options": [
+            { "id": "a", "text": "A national overview of loneliness among people over sixty-five." },
+            { "id": "b", "text": "A weekly dance class for widowed adults preparing for its first public performance." }
+          ],
+          "preferred": ["b"],
+          "feedback": "The dance class gives the filmmaker people, activity, place, recurring access, relationships, preparation, and a possible culminating event. The larger subject of loneliness may emerge through the particular situation."
+        }
+      ],
+      "supplements": [
+        {
+          "afterQuestion": "loneliness-version",
+          "type": "profile",
+          "title": "Filmability profile",
+          "items": [
+            { "label": "Contributor", "value": "Strong" },
+            { "label": "Activity", "value": "Strong" },
+            { "label": "Place", "value": "Strong" },
+            { "label": "Development", "value": "Moderate to strong" },
+            { "label": "Access", "value": "Potentially realistic" },
+            { "label": "Scale", "value": "Manageable" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climate-change",
+      "topic": "Climate change.",
+      "image": "images/climate-garden.jpg",
+      "alt": "A homeowner covering plants beside a creek as dark storm clouds gather.",
+      "initialIdea": "I want to make a short documentary showing the effects of climate change.",
+      "questions": [
+        {
+          "id": "climate-improve",
+          "type": "single",
+          "prompt": "What would most improve the filmability of this idea?",
+          "options": [
+            { "id": "statistics", "text": "Add more scientific statistics." },
+            { "id": "countries", "text": "Film in several countries." },
+            { "id": "local-person", "text": "Find one local person dealing with a specific visible consequence." },
+            { "id": "experts", "text": "Interview as many experts as possible." }
+          ],
+          "preferred": ["local-person"],
+          "feedback": "Statistics and experts may provide context, but they do not automatically create a short documentary story. A local person responding to a visible consequence gives the camera activity, place, behavior, and change."
+        },
+        {
+          "id": "climate-elements",
+          "type": "multiple",
+          "prompt": "What makes this version more filmable? Select all that apply.",
+          "introLabel": "Revised possibility",
+          "introQuote": "A homeowner beside a flood-prone creek prepares her garden before the first major storm of the season.",
+          "options": [
+            { "id": "contributor", "text": "one contributor;" },
+            { "id": "location", "text": "a physical location;" },
+            { "id": "preparation", "text": "visible preparation;" },
+            { "id": "future-event", "text": "a possible future event;" },
+            { "id": "access", "text": "realistic local access;" },
+            { "id": "disaster", "text": "a guaranteed dramatic disaster;" },
+            { "id": "scale", "text": "a manageable scale." }
+          ],
+          "preferred": ["contributor", "location", "preparation", "future-event", "access", "scale"],
+          "feedback": "Documentary filmmakers cannot guarantee that a dramatic event will occur. What makes the idea workable is the preparation, the contributor’s relationship to the place, the approaching storm, and the uncertainty of what may happen."
+        }
+      ]
+    },
+    {
+      "id": "traditional-crafts",
+      "topic": "The disappearance of traditional crafts.",
+      "image": "images/potter-workshop.jpg",
+      "alt": "A silver-haired potter working at a wheel in a studio with partially emptied shelves.",
+      "initialIdea": "A local potter is closing her workshop after thirty years.",
+      "questions": [
+        {
+          "id": "potter-spine",
+          "type": "single",
+          "prompt": "Which additional element gives the project the clearest filmable spine?",
+          "options": [
+            { "id": "history", "text": "A long historical explanation of pottery." },
+            { "id": "commission", "text": "The potter must finish her final commissioned bowls before the workshop closes." },
+            { "id": "historians", "text": "Interviews with ten ceramic historians." },
+            { "id": "survey", "text": "A survey of pottery styles around the world." }
+          ],
+          "preferred": ["commission"],
+          "feedback": "The closing workshop provides context. The final commission provides present-tense activity, intention, a time frame, and the possibility of success, failure, memory, and change."
+        },
+        {
+          "id": "potter-access",
+          "type": "single",
+          "prompt": "What must the filmmaker clarify before committing to the project?",
+          "options": [
+            { "id": "closing", "text": "whether the potter genuinely plans to close;" },
+            { "id": "permission", "text": "whether filming is permitted during the work;" },
+            { "id": "time", "text": "whether there is enough time with the contributor;" },
+            { "id": "visual", "text": "whether the final commission is visually filmable;" },
+            { "id": "all", "text": "all of the above." }
+          ],
+          "preferred": ["all"],
+          "feedback": "A promising story still depends on access. Background information is not enough. The filmmaker must be able to enter the activity and remain present while meaningful events unfold."
+        }
+      ],
+      "supplements": [
+        {
+          "afterQuestion": "potter-spine",
+          "type": "profile",
+          "title": "Filmability profile",
+          "items": [
+            { "label": "Contributor", "value": "Strong" },
+            { "label": "Activity", "value": "Strong" },
+            { "label": "Place", "value": "Strong" },
+            { "label": "Development", "value": "Strong" },
+            { "label": "Access", "value": "Must be confirmed" },
+            { "label": "Scale", "value": "Highly manageable" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-insecurity",
+      "topic": "Food insecurity.",
+      "image": "images/food-pantry.jpg",
+      "alt": "A volunteer organizing partly empty shelves in a neighborhood food pantry.",
+      "initialIdea": "A documentary about food banks and hunger in the United States.",
+      "questions": [
+        {
+          "id": "food-scale",
+          "type": "single",
+          "prompt": "Which problem is most significant for a first 3–5-minute film?",
+          "options": [
+            { "id": "filmed", "text": "The topic has already been filmed." },
+            { "id": "broad", "text": "The issue is too broad for the available scale." },
+            { "id": "not-visual", "text": "Food banks are not visual." },
+            { "id": "not-short", "text": "Social issues should not be explored through short films." }
+          ],
+          "preferred": ["broad"],
+          "feedback": "The subject may be important, but the proposed scale is too large. A short film needs a contained situation through which the larger issue can become visible."
+        },
+        {
+          "id": "food-possibilities",
+          "type": "multiple",
+          "prompt": "What documentary possibilities are now present? Select all that apply.",
+          "introLabel": "Revised possibility",
+          "introQuote": "A volunteer tries to keep a neighborhood food pantry stocked during the final week before its largest annual donation drive.",
+          "options": [
+            { "id": "contributor", "text": "a contributor;" },
+            { "id": "activity", "text": "repeated activity;" },
+            { "id": "place", "text": "a specific place;" },
+            { "id": "event", "text": "an approaching event;" },
+            { "id": "shortages", "text": "visible shortages and decisions;" },
+            { "id": "relationships", "text": "possible relationships with visitors and donors;" },
+            { "id": "analysis", "text": "a complete national analysis of hunger." }
+          ],
+          "preferred": ["contributor", "activity", "place", "event", "shortages", "relationships"],
+          "feedback": "The short film does not need to explain the entire national issue. The food pantry can become a small human window into the larger subject."
+        },
+        {
+          "id": "food-ethics",
+          "type": "single",
+          "prompt": "Which issue requires the greatest care?",
+          "promptLabel": "Ethical question",
+          "options": [
+            { "id": "attractive", "text": "Making the pantry look visually attractive." },
+            { "id": "dignity", "text": "Protecting the dignity and privacy of people receiving assistance." },
+            { "id": "everyone", "text": "Ensuring every visitor appears on camera." },
+            { "id": "conflict", "text": "Creating conflict between volunteers." }
+          ],
+          "preferred": ["dignity"],
+          "feedback": "Filmability is never only a practical question. A project may be accessible and visually active but still require careful boundaries around consent, privacy, and representation."
+        }
+      ]
+    },
+    {
+      "id": "local-music",
+      "topic": "Local music culture.",
+      "image": "images/musician-rehearsal.jpg",
+      "alt": "A musician wearing a hearing device rehearsing alone on a small performance stage.",
+      "initialIdea": "A profile of my friend, who is a musician.",
+      "questions": [
+        {
+          "id": "music-weakness",
+          "type": "single",
+          "prompt": "Why might this remain weak as a documentary idea?",
+          "options": [
+            { "id": "cannot", "text": "Musicians cannot be documentary contributors." },
+            { "id": "friendship", "text": "Friendship makes filming impossible." },
+            { "id": "profile", "text": "A profile may contain information without a developing situation." },
+            { "id": "music", "text": "Music cannot be used in a student film." }
+          ],
+          "preferred": ["profile"],
+          "feedback": "An interesting person is not automatically a story. The filmmaker still needs activity, access, behavior, and something developing in the present."
+        },
+        {
+          "id": "music-versions",
+          "type": "single",
+          "prompt": "Revised possibilities",
+          "options": [
+            { "id": "a", "label": "Version A", "text": "A musician talks about her career in a seated interview." },
+            { "id": "b", "label": "Version B", "text": "A musician prepares to perform publicly for the first time since losing part of her hearing." }
+          ],
+          "preferred": ["b"],
+          "feedback": "The performance creates present-tense preparation and uncertainty. The hearing loss may shape behavior, choices, sound, rehearsal, and the meaning of the event."
+        }
+      ],
+      "supplements": [
+        {
+          "afterQuestion": "music-versions",
+          "type": "note",
+          "title": "Access note",
+          "text": "The idea is promising only if the contributor wants to participate, understands the project, and is comfortable with how her hearing loss may be represented."
+        }
+      ]
+    },
+    {
+      "id": "education-ai",
+      "topic": "Education and technology.",
+      "image": "images/ai-instructor.jpg",
+      "alt": "An instructor preparing an online course beside a laptop displaying a course-assistant interface.",
+      "initialIdea": "I want to investigate how artificial intelligence is changing universities.",
+      "questions": [
+        {
+          "id": "ai-achievable",
+          "type": "single",
+          "prompt": "Which version is most achievable for this course?",
+          "options": [
+            { "id": "leaders", "text": "Interview university leaders across the country and compare national policy." },
+            { "id": "instructor", "text": "Follow one instructor preparing to use an AI tutor for the first time in a small course." },
+            { "id": "history", "text": "Explain the history of artificial intelligence from the 1950s to the present." },
+            { "id": "survey", "text": "Survey one hundred students about their attitudes toward AI." }
+          ],
+          "preferred": ["instructor"],
+          "feedback": "The instructor’s preparation creates a person, activity, place, uncertainty, and a present-tense process. The larger question of AI in education can emerge through this contained experience."
+        },
+        {
+          "id": "ai-strengthen",
+          "type": "single",
+          "prompt": "Which element would most strengthen the story?",
+          "options": [
+            { "id": "none", "text": "The instructor has no questions or concerns." },
+            { "id": "decide", "text": "The instructor must decide what the AI tutor should and should not be allowed to do." },
+            { "id": "definitions", "text": "The film includes more definitions." },
+            { "id": "graphics", "text": "The film uses futuristic graphics." }
+          ],
+          "preferred": ["decide"],
+          "feedback": "A decision creates direction. It reveals values, uncertainty, and consequence without requiring manufactured conflict."
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "heading": "Comparative challenge",
+    "instructions": "Assign each documentary idea to one category.",
+    "categories": [
+      "Promising and manageable",
+      "Potentially promising but underdeveloped",
+      "Too broad",
+      "Unrealistic for this course"
+    ],
+    "ideas": [
+      { "id": "a", "label": "Idea A", "text": "A documentary about mental health.", "suggested": "Too broad", "feedback": "The subject is broad. The filmmaker needs a particular person, place, activity, or changing situation." },
+      { "id": "b", "label": "Idea B", "text": "A ceramic artist preparing her final kiln firing before moving out of her studio.", "suggested": "Promising and manageable", "feedback": "This contains a contributor, activity, location, deadline, visual process, and realistic scale." },
+      { "id": "c", "label": "Idea C", "text": "An investigation of corruption in international sport requiring travel to four countries.", "suggested": "Unrealistic for this course", "feedback": "The issue may be important, but the access, travel, permissions, investigation, and scale exceed the course." },
+      { "id": "d", "label": "Idea D", "text": "A filmmaker’s cousin describing childhood memories in one interview.", "suggested": "Potentially promising but underdeveloped", "feedback": "The contributor may be compelling, but one retrospective interview may not create enough present-tense documentary action. The idea needs a situation, activity, journey, or encounter." }
+    ],
+    "button": "Test Your Own Idea"
+  },
+  "ownIdea": {
+    "heading": "Test your own idea",
+    "intro": "Work through each prompt. Your responses are saved in this browser as you enter them.",
+    "prompts": [
+      { "id": "topic", "label": "What broad subject interests you?", "type": "text", "shortLabel": "Topic" },
+      { "id": "contributor", "label": "Who might allow that subject to become human and specific?", "type": "textarea", "shortLabel": "Contributor" },
+      { "id": "activity", "label": "What will the person be doing while you film?", "type": "textarea", "shortLabel": "Activity" },
+      { "id": "place", "label": "Where can the camera encounter this activity?", "type": "textarea", "shortLabel": "Place" },
+      { "id": "development", "label": "What might change, develop, succeed, fail, arrive, depart, or be decided?", "type": "textarea", "shortLabel": "Development" },
+      {
+        "id": "access",
+        "label": "What access do you currently have?",
+        "type": "select",
+        "shortLabel": "Access",
+        "options": ["Access confirmed", "Initial contact made", "Contributor identified but not contacted", "Access uncertain", "Complex institutional approval likely"]
+      },
+      {
+        "id": "scale",
+        "label": "Scale",
+        "type": "checkboxes",
+        "shortLabel": "Scale",
+        "options": [
+          "The project can be filmed locally.",
+          "It centers on one principal contributor or small group.",
+          "It uses one or two principal locations.",
+          "It can be filmed within the course period.",
+          "It does not require major travel.",
+          "It does not depend on complex permissions."
+        ]
+      },
+      { "id": "ethics", "label": "What responsibility or potential concern should you consider before filming?", "type": "textarea", "shortLabel": "Ethical consideration" },
+      {
+        "id": "sentence",
+        "label": "Working film sentence",
+        "type": "textarea",
+        "shortLabel": "Working film sentence",
+        "template": "A short documentary following [contributor] as they [activity or attempt] at [place], while [possible development or change]."
+      }
+    ],
+    "reviewButton": "Review My Filmability Check"
+  },
+  "guidance": {
+    "strong": {
+      "label": "Strong initial possibility",
+      "feedback": "Your idea contains the foundations of a filmable short documentary. The next step is to confirm access and learn more about what actually happens in the contributor’s world."
+    },
+    "underdeveloped": {
+      "label": "Promising but underdeveloped",
+      "feedback": "Your idea has a possible contributor, but the present-tense situation remains unclear. Ask what the person will actually be doing while the camera is present and what may develop."
+    },
+    "access": {
+      "label": "Access concern",
+      "feedback": "The idea may be interesting, but the current access is fragile. Identify what permission is required and develop a simpler backup that does not depend on uncertain institutional approval."
+    },
+    "scale": {
+      "label": "Scale concern",
+      "feedback": "The project may exceed the scale of a 3–5-minute course film. Look for one person, one place, and one situation through which the larger subject can become visible."
+    },
+    "ethics": {
+      "label": "Ethical reflection needed",
+      "keywords": ["child", "children", "medical", "patient", "confidential", "legal", "court", "trauma", "addiction", "vulnerable", "covert", "secret"],
+      "feedback": "Your response suggests that the project may involve heightened ethical responsibilities. Discuss the idea with faculty before filming and consider whether the subject can be approached through a safer or less vulnerable situation.",
+      "disclaimer": "This is a prompt for further consideration, not an ethical determination."
+    }
+  },
+  "reflection": {
+    "heading": "Reflect on your idea",
+    "intro": "Use these prompts to name what is concrete and what still needs work.",
+    "prompts": [
+      { "id": "topicVsFilm", "label": "What is the difference between your topic and your possible film?", "required": true },
+      { "id": "filmableElement", "label": "What is the most filmable element of your idea?", "required": true },
+      { "id": "uncertain", "label": "What remains abstract or uncertain?", "required": true },
+      { "id": "firstAction", "label": "What is the first action you need to take?", "required": true },
+      { "id": "backup", "label": "What is your backup idea if access fails?", "required": false, "hint": "Optional but strongly encouraged." }
+    ],
+    "button": "Create My Summary"
+  },
+  "summary": {
+    "heading": "Your Filmability Check",
+    "labels": {
+      "topic": "Broad topic",
+      "contributor": "Possible contributor",
+      "activity": "Filmable activity",
+      "place": "Place",
+      "development": "Possible development",
+      "access": "Access status",
+      "scale": "Scale",
+      "ethics": "Ethical consideration",
+      "sentence": "Working film sentence",
+      "guidance": "Narrative guidance",
+      "topicVsFilm": "Topic versus film",
+      "filmableElement": "Most filmable element",
+      "uncertain": "What remains uncertain",
+      "firstAction": "First action",
+      "backup": "Backup idea"
+    },
+    "buttons": {
+      "copy": "Copy Summary",
+      "download": "Download as Text File",
+      "revise": "Revise My Idea",
+      "restart": "Start Again"
+    }
+  },
+  "ui": {
+    "back": "Back",
+    "next": "Next",
+    "reviewResponses": "Review responses",
+    "updateFeedback": "Update feedback",
+    "nextScenario": "Next scenario",
+    "continueComparison": "Continue to comparative challenge",
+    "clearProgress": "Clear Saved Progress",
+    "openNewTab": "Open this activity in a new tab",
+    "selectCategory": "Select a category",
+    "requiredMessage": "Please respond before continuing.",
+    "questionsRequiredMessage": "Please respond to each question before reviewing the feedback.",
+    "comparisonRequiredMessage": "Please choose a category for each idea before reviewing the feedback.",
+    "copySuccess": "Summary copied to the clipboard.",
+    "copyFallback": "Select the summary text and copy it using your browser.",
+    "storageUnavailable": "Saving is unavailable in this browser. You can still complete and export the activity while this page remains open.",
+    "loadError": "The activity content could not be loaded. Preview this folder through a local web server and confirm that data/filmability-data.json is available."
+  },
+  "privacy": "This exercise does not transmit or store responses on a server. Responses remain in your browser unless you copy or download them."
+}
