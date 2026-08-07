@@ -1,0 +1,251 @@
+{
+  "title": "Documentary Form Lab: The Same Story, Different Film",
+  "courseContext": "DOC 515 — Foundations of Documentary Filmmaking · Module 1 · Lesson 2",
+  "privacy": "Your responses stay in this browser. This lab has no login, backend, analytics, numerical score, or automatic Canvas submission.",
+  "stages": [
+    { "id": "intro", "long": "Introduction", "short": "Start" },
+    { "id": "forms", "long": "Six documentary forms", "short": "Forms" },
+    { "id": "story", "long": "Community-garden story world", "short": "Story" },
+    { "id": "build", "long": "Build six treatments", "short": "Build" },
+    { "id": "compare", "long": "Compare two forms", "short": "Compare" },
+    { "id": "own", "long": "Test your documentary idea", "short": "Your Film" },
+    { "id": "summary", "long": "Reflect and export", "short": "Export" }
+  ],
+  "introduction": {
+    "eyebrow": "Documentary Form and Creative Choice",
+    "heading": "The Same Story, Different Film",
+    "lead": "A documentary is never only its subject. Form is the creative agreement between filmmaker, contributor, and viewer.",
+    "paragraphs": [
+      "In this lab, you will rebuild one filmable story through six contrasting documentary approaches.",
+      "The goal is not to discover a single correct form. It is to notice how each set of choices changes authority, emotion, evidence, ethics, filmmaker presence, and the scenes you are likely to pursue.",
+      "You will then test two forms against your own short-documentary idea and choose a provisional direction."
+    ],
+    "steps": [
+      "Learn six concise, overlapping form definitions.",
+      "Inspect the people, place, labor, records, uncertainty, time, images, and sounds available in one community-garden story.",
+      "Draft six possible treatments from the same story material.",
+      "Compare two treatments side by side.",
+      "Apply two forms to your own project and export a provisional-form statement."
+    ],
+    "disclosure": "The community-garden images are fictional teaching visuals. They do not depict real documentary contributors or events.",
+    "button": "Begin the Lab"
+  },
+  "formsIntro": {
+    "heading": "Use forms as lenses, not rigid boxes",
+    "lead": "Most documentaries are hybrids. Name the dominant logic, then notice what each borrowed form adds.",
+    "hybridNote": "Hybrid is not an escape hatch. It is a pattern of deliberate borrowing."
+  },
+  "forms": [
+    {
+      "id": "observational",
+      "title": "Observational",
+      "definition": "Stay close to unfolding behavior and let action carry meaning.",
+      "lookFor": ["Sustained scenes and real-time action", "Limited overt explanation", "Meaning built through selection and juxtaposition"],
+      "question": "What can happen without being arranged?",
+      "model": {
+        "treatment": "Spend the final open weekend with the gardeners as they work, wait, disagree, and prepare to leave.",
+        "camera": "Present for sustained action; little explanation in the moment.",
+        "pressure": "The approaching closure reorganizes ordinary behavior."
+      }
+    },
+    {
+      "id": "issue-led",
+      "title": "Issue-led / expository",
+      "definition": "Organize evidence and argument so the audience can follow a claim.",
+      "lookFor": ["A governing question or argument", "Interviews, records, archive, or narration", "Evidence arranged for clarity and consequence"],
+      "question": "What must the audience understand—and why now?",
+      "model": {
+        "treatment": "Use the garden’s possible closure to investigate who controls neighborhood land—and who benefits.",
+        "camera": "Gather interviews, public records, meetings, maps, and observable consequences.",
+        "pressure": "Competing claims about value, ownership, and public good."
+      }
+    },
+    {
+      "id": "participatory",
+      "title": "Participatory",
+      "definition": "Let the encounter between filmmaker and contributor become part of the film.",
+      "lookFor": ["Questions, exchanges, or collaboration", "The filmmaker’s presence affects events", "Knowledge emerges through relationship"],
+      "question": "What does the encounter reveal?",
+      "model": {
+        "treatment": "The filmmaker joins the effort to save the garden and records how participation changes access and understanding.",
+        "camera": "Questions, collaboration, and the filmmaker’s decisions remain audible or visible.",
+        "pressure": "Can the filmmaker participate without disguising influence or making false promises?"
+      }
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive",
+      "definition": "Make the process, construction, or uncertainty of documentary visible.",
+      "lookFor": ["The making of the film enters the film", "Evidence and representation are questioned", "Gaps, limits, or contradictions remain visible"],
+      "question": "How is this account being made—and where does it fail?",
+      "model": {
+        "treatment": "Build the film around contradictory accounts—and the missing documents needed to know why the garden may close.",
+        "camera": "Show searches, refusals, gaps, edits, and the limits of what can be verified.",
+        "pressure": "The attempt to tell the story becomes evidence about power and knowledge."
+      }
+    },
+    {
+      "id": "poetic",
+      "title": "Poetic",
+      "definition": "Build meaning through rhythm, association, image, and sound.",
+      "lookFor": ["Mood, texture, pattern, and metaphor", "Nonlinear or associative structure", "Sound and image carry ideas beyond explanation"],
+      "question": "What can be felt before it is explained?",
+      "model": {
+        "treatment": "Compose a sensory elegy from soil, hands, voices, seasons, empty beds, and the sounds of surrounding construction.",
+        "camera": "Collect image and sound motifs; build rhythm, association, and contrast.",
+        "pressure": "Loss is felt through what changes in the place and its soundscape."
+      }
+    },
+    {
+      "id": "performative",
+      "title": "Performative / personal",
+      "definition": "Use lived experience and embodied point of view as a way of knowing.",
+      "lookFor": ["First-person or situated perspective", "Memory, identity, emotion, or embodiment", "The maker’s experience shapes the inquiry"],
+      "question": "Why is this story being told from here, by this person?",
+      "model": {
+        "treatment": "A gardener tells the history of the place through the plants, objects, and memories that shaped her own life.",
+        "camera": "First-person narration, embodied action, family archive, and intimate encounter.",
+        "pressure": "The possible closure challenges identity, memory, and belonging."
+      }
+    }
+  ],
+  "storyWorld": {
+    "heading": "One story. Six possible films.",
+    "title": "The community garden may close.",
+    "summary": "The available story world contains people, place, labor, records, uncertainty, and time. The garden and closure threat remain; the form changes what counts as evidence, how the filmmaker is present, how camera and sound behave, and how authority and feeling are structured.",
+    "image": "images/community-garden-hero.png",
+    "alt": "A fictional older gardener holding seedlings in a city community garden while another person works in the background.",
+    "contactSheet": "images/community-garden-contact-sheet.png",
+    "contactSheetAlt": "Six fictional teaching views of a community garden: gardening labor, seedlings, a filmmaker recording, a notice on a fence, empty beds, and a seated gardener.",
+    "stays": ["The garden and closure threat", "Core people and place", "Access and ethical obligations"],
+    "changes": ["What counts as evidence", "Filmmaker presence", "Camera and sound behavior", "Structure, authority, and feeling"],
+    "assetGroups": [
+      {
+        "id": "scenes",
+        "title": "Scenes and action",
+        "items": [
+          { "id": "final-weekend", "text": "The final open weekend" },
+          { "id": "gardeners-work", "text": "Gardeners work" },
+          { "id": "gardeners-wait", "text": "Gardeners wait" },
+          { "id": "gardeners-disagree", "text": "Gardeners disagree" },
+          { "id": "prepare-leave", "text": "Gardeners prepare to leave" },
+          { "id": "save-effort", "text": "An effort to save the garden" }
+        ]
+      },
+      {
+        "id": "evidence",
+        "title": "Evidence and records",
+        "items": [
+          { "id": "public-records", "text": "Public records" },
+          { "id": "meetings", "text": "Meetings" },
+          { "id": "maps", "text": "Maps" },
+          { "id": "contradictory-accounts", "text": "Contradictory accounts" },
+          { "id": "missing-documents", "text": "Missing documents" },
+          { "id": "searches-refusals", "text": "Searches, refusals, and gaps" }
+        ]
+      },
+      {
+        "id": "image-sound",
+        "title": "Images, sounds, and memory",
+        "items": [
+          { "id": "soil-hands", "text": "Soil and hands" },
+          { "id": "voices", "text": "Voices" },
+          { "id": "seasons", "text": "Seasons" },
+          { "id": "empty-beds", "text": "Empty beds" },
+          { "id": "construction-sound", "text": "Sounds of surrounding construction" },
+          { "id": "plants-objects", "text": "Plants and objects" },
+          { "id": "memories", "text": "Memories" },
+          { "id": "family-archive", "text": "Family archive" }
+        ]
+      }
+    ]
+  },
+  "builder": {
+    "heading": "Build six treatments from one story",
+    "lead": "Draft every version before comparing two. Select story material, order it into a possible progression, and state the choices each form asks you to make.",
+    "ingredientHeading": "Available story material",
+    "trayHeading": "Your ordered treatment material",
+    "emptyTray": "No story material selected yet. Use Add to Treatment, then reorder with the buttons or drag items.",
+    "fields": [
+      { "id": "sceneStrategy", "label": "Likely scene strategy", "prompt": "What would the camera stay with, and what could develop?" },
+      { "id": "filmmakerPresence", "label": "Filmmaker presence", "prompt": "How visible or audible is the filmmaker, and how does that presence affect events?" },
+      { "id": "evidence", "label": "Evidence", "prompt": "What will count as evidence in this version?" },
+      { "id": "imageSound", "label": "Image and sound", "prompt": "How will image and sound carry meaning?" },
+      { "id": "ethicalPressure", "label": "Ethical pressure", "prompt": "What relationship, promise, limit, or risk needs attention?" }
+    ],
+    "teacherNote": "Model combinations are examples, not answers. Ask what each version makes possible, what it leaves out, and whether the filmmaker’s promises match the form."
+  },
+  "comparison": {
+    "heading": "Compare two treatments side by side",
+    "lead": "The garden, closure threat, people, place, access, and ethical obligations stay. The form changes the film’s consequences.",
+    "prompts": [
+      { "id": "authority", "label": "Authority", "text": "Who seems able to explain, interpret, or challenge the story in each version?" },
+      { "id": "emotion", "label": "Emotion", "text": "How might each version shape what the audience feels—and when?" },
+      { "id": "ethics", "label": "Ethics", "text": "What relationship, promise, omission, or distortion becomes more likely in each version?" },
+      { "id": "presence", "label": "Filmmaker presence", "text": "Where is the filmmaker positioned, and how does that position affect what can be known?" },
+      { "id": "scenes", "label": "Likely scenes", "text": "Which scenes would each version pursue, and what might it fail to film?" }
+    ]
+  },
+  "ownProject": {
+    "heading": "Test two forms against your own documentary",
+    "lead": "Choose provisionally, not permanently. Your formal choice should respond to the story you can actually access and film.",
+    "fields": [
+      { "id": "workingTitle", "label": "Working title", "prompt": "Name the project for now." },
+      { "id": "story", "label": "Specific story", "prompt": "What unfolds, for whom, in what situation?" },
+      { "id": "access", "label": "Access and filmable situation", "prompt": "Who, what, and where can you genuinely access? What can the camera encounter?" }
+    ],
+    "formPrompts": [
+      { "id": "firstReveals", "label": "What could the first form reveal?" },
+      { "id": "firstRisks", "label": "What might the first form risk hiding or distorting?" },
+      { "id": "secondContributes", "label": "What could the second form contribute, reveal, or protect?" },
+      { "id": "nextTest", "label": "What small access or scene test will help you decide?" }
+    ]
+  },
+  "reflection": {
+    "heading": "Make a provisional form statement",
+    "lead": "Form is a decision about how to meet reality. Name what the choice reveals and what it risks hiding.",
+    "prompts": [
+      { "id": "provisionalReason", "label": "Why does this form currently serve the story you can access and film?" },
+      { "id": "secondContribution", "label": "What could a second form contribute?" },
+      { "id": "hiddenRisk", "label": "What might the provisional form risk hiding?" }
+    ]
+  },
+  "teacherSupport": {
+    "heading": "Teacher Notes",
+    "intro": "Use these prompts to open discussion. Do not present a model treatment as the single correct creative answer.",
+    "questions": [
+      "What does this form ask the camera to wait for?",
+      "What becomes authoritative, and whose knowledge becomes secondary?",
+      "How does filmmaker presence change access, responsibility, or trust?",
+      "What material is emphasized, and what could disappear from the account?",
+      "Which borrowed form would complicate the dominant logic productively?"
+    ]
+  },
+  "export": {
+    "title": "DOCUMENTARY FORM LAB — REFLECTION SUMMARY",
+    "course": "DOC 515 — Foundations of Documentary Filmmaking · Module 1 · Lesson 2",
+    "footer": "This is a non-scored planning and reflection document. Revise it as access, scenes, and the project change."
+  },
+  "ui": {
+    "back": "Back",
+    "continue": "Continue",
+    "saveMessage": "Saved in this browser.",
+    "storageUnavailable": "Local saving is unavailable. You can still complete and export the lab during this session.",
+    "loadError": "The activity content could not be loaded. Run this folder through a local web server and confirm that data/form-lab-data.json is available.",
+    "requiredBuilder": "Draft all six treatments before continuing. Each treatment needs at least two pieces of story material and a response to every treatment prompt.",
+    "requiredComparison": "Choose two different forms and respond to every comparison prompt.",
+    "requiredOwnProject": "Complete each field and test two different forms before continuing.",
+    "requiredReflection": "Complete the provisional form statement before opening the export summary.",
+    "copy": "Copy Summary",
+    "copySuccess": "Summary copied to the clipboard.",
+    "copyFallback": "Copy was not available. Select the summary text and copy it manually.",
+    "download": "Download Text File",
+    "print": "Print / Save as PDF",
+    "revise": "Revise My Project Test",
+    "restart": "Start Again",
+    "showTeacher": "Show Teacher Notes",
+    "hideTeacher": "Hide Teacher Notes",
+    "clearProgress": "Clear Saved Progress",
+    "openNewTab": "Open in a New Tab"
+  }
+}
