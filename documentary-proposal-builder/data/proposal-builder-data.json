@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "title": "Documentary Proposal Builder",
+  "steps": [
+    {
+      "shortTitle": "Story foundation",
+      "title": "Story foundation",
+      "introduction": "Move from a broad topic to a specific documentary inquiry the camera can pursue.",
+      "fields": [
+        {"id":"workingTitle","label":"Working title","type":"input","help":"A provisional title. It can change as the film develops."},
+        {"id":"logline","label":"Working logline","type":"textarea","size":"short","help":"In one or two sentences, identify who, the present situation, what they are doing or facing, and what is at stake.","caution":"A broad topic with no action, situation, or pressure."},
+        {"id":"projectSummary","label":"Project summary","type":"textarea","help":"Describe the person, place, current situation, central pressure, likely action, expected length, and achievable scale.","caution":"Background information that never reaches the present-tense film."},
+        {"id":"centralQuestion","label":"Central documentary question","type":"textarea","size":"short","help":"Write an open question that guides the inquiry without dictating its answer."},
+        {"id":"whyNow","label":"Why this film, and why now?","type":"textarea","help":"Name what is distinctive and the real event, transition, decision, deadline, or pressure that makes filming timely.","caution":"Manufactured urgency or a claim that the ending is already known."}
+      ]
+    },
+    {
+      "shortTitle": "People & access",
+      "title": "Contributors, relationships, access, and ethics",
+      "introduction": "Describe roles and relationships without entering private contact information.",
+      "fields": [
+        {"id":"contributors","label":"Contributors and story roles","type":"textarea","help":"Name roles rather than private details. What does each person know, do, want, or risk?"},
+        {"id":"filmmakerRelationship","label":"Your relationship to the people and subject","type":"textarea","help":"Explain how you are connected and how that position may affect trust, access, and interpretation."},
+        {"id":"accessStatus","label":"Current access status","type":"select","help":"Choose the most accurate current status.","options":["Confirmed","Possible — follow-up required","Unknown — not yet requested","Declined or unavailable"]},
+        {"id":"accessUnknowns","label":"What access still needs to be tested?","type":"textarea","help":"List conversations, permissions, dates, locations, or boundaries that remain unresolved.","caution":"Treating a friendly response, public location, or sent message as confirmed access."},
+        {"id":"ethicsBoundaries","label":"Ethical questions and contributor boundaries","type":"textarea","help":"Identify vulnerability, privacy, power, safety, expectations, or changing-consent questions that require care."}
+      ]
+    },
+    {
+      "shortTitle": "Scenes & evidence",
+      "title": "Likely scenes and observable evidence",
+      "introduction": "Translate research into action, place, time, relationships, and evidence the camera may witness.",
+      "fields": [
+        {"id":"likelyScenes","label":"Three likely scenes","type":"textarea","help":"For each possibility, name where it could happen, who may be present, what they would be doing, and why the moment might matter.","caution":"Interview answers described as scenes, or scenes with no observable action."},
+        {"id":"observableAction","label":"Observable action and change","type":"textarea","help":"What routines, decisions, processes, conflicts, preparations, or transitions could make the story visible?"},
+        {"id":"evidence","label":"Other evidence available to the film","type":"textarea","help":"List relevant locations, records, objects, archive, photographs, demonstrations, or environmental details."},
+        {"id":"sceneUnknowns","label":"What must be discovered or tested in the field?","type":"textarea","help":"Name the scene assumptions you cannot yet confirm."}
+      ]
+    },
+    {
+      "shortTitle": "Form & vision",
+      "title": "Documentary form and production vision",
+      "introduction": "Describe how the film will meet reality and how image and sound will serve the story.",
+      "fields": [
+        {"id":"documentaryForm","label":"Provisional documentary form","type":"textarea","size":"short","help":"Will the film mainly observe, participate, question, reflect, explain, or combine approaches? Explain why this serves the story and access."},
+        {"id":"filmmakerPresence","label":"Filmmaker presence","type":"textarea","size":"short","help":"Will you be visible, audible, interacting, or mostly absent? What does that choice make possible?"},
+        {"id":"visualApproach","label":"Visual approach","type":"textarea","help":"Describe framing, distance, movement or stillness, locations, light, texture, coverage, details, and any archive or graphics as story decisions."},
+        {"id":"soundApproach","label":"Sound approach","type":"textarea","help":"Describe location sound, voice, silence, off-screen space, music function, and foreseeable recording challenges."}
+      ]
+    },
+    {
+      "shortTitle": "Treatment",
+      "title": "Present-tense treatment",
+      "introduction": "Help a reader imagine the screen experience while clearly labeling what is known and what remains provisional.",
+      "fields": [
+        {"id":"treatment","label":"Treatment","type":"textarea","help":"Describe how the film may begin, develop through scenes and relationships, and move toward an open production question. Write vividly in the present tense without inventing an outcome.","caution":"A promised ending, scripted emotions, or certainty about events you have not observed."},
+        {"id":"confirmedElements","label":"What is confirmed?","type":"textarea","help":"Separate observed facts, available evidence, discussed participation, and confirmed locations or dates."},
+        {"id":"hypotheses","label":"What is a working hypothesis?","type":"textarea","help":"Name what you expect may happen or matter, while keeping the possibility of revision visible."},
+        {"id":"unknowns","label":"What remains unknown?","type":"textarea","help":"List the questions production must discover rather than conceal."}
+      ]
+    },
+    {
+      "shortTitle": "Feasibility",
+      "title": "Feasibility, permissions, risks, and contingencies",
+      "introduction": "Test the proposed film against the real course window and reduce the promise where necessary.",
+      "fields": [
+        {"id":"scopeLength","label":"Scope and expected length","type":"textarea","size":"short","help":"Define one achievable story and a realistic short-film length."},
+        {"id":"scheduleLocations","label":"Schedule and locations","type":"textarea","help":"List the production window, likely dates, travel, location control, and timing dependencies."},
+        {"id":"permissions","label":"Permissions","type":"textarea","help":"Identify contributor, location, material, music, archive, or other permissions that may be needed."},
+        {"id":"resources","label":"Resources","type":"textarea","help":"List the camera, sound, lighting, transport, crew help, time, and editing resources actually available."},
+        {"id":"risks","label":"Risks and pressure points","type":"textarea","help":"Consider safety, wellbeing, ethics, weather, access failure, technical limits, scheduling, and excessive scope."},
+        {"id":"contingencies","label":"Contingency plan","type":"textarea","help":"Name a smaller scene, alternate date, different evidence, or revised scope that still serves the central question.","caution":"A backup plan that depends on the same untested assumption as the primary plan."}
+      ]
+    },
+    {
+      "shortTitle": "Reflection",
+      "title": "Development reflection",
+      "introduction": "Identify the next practical tests that will make the proposal more honest and useful.",
+      "fields": [
+        {"id":"strongestElement","label":"What is the strongest filmable element now?","type":"textarea","size":"short","help":"Name the contributor, situation, access, scene, relationship, image, sound, or production condition that gives the film its clearest possibility."},
+        {"id":"nextTest","label":"What access or scene will you test next?","type":"textarea","size":"short","help":"State one small, concrete next action."},
+        {"id":"smallerPromise","label":"What promise should become smaller or more provisional?","type":"textarea","size":"short","help":"Revise the part of the plan that currently overreaches evidence, access, time, or resources."},
+        {"id":"developmentQuestions","label":"Questions to carry into development","type":"textarea","help":"List the unanswered questions you need to research, discuss, observe, or test before production."}
+      ]
+    }
+  ],
+  "teacherExample": {
+    "workingTitle":"Ready to Ride (working title)",
+    "logline":"A volunteer mechanic works against the workshop’s closing window to decide which donated bicycles can be made safe for a neighborhood giveaway.",
+    "centralQuestion":"What does it take to decide whether a donated bicycle is safe enough to give away?",
+    "whyNow":"The workshop has a limited preparation window before a neighborhood giveaway, and several donated bicycles still need inspection.",
+    "contributors":"The volunteer mechanic is the central contributor. A second volunteer may help assess damaged bicycles and explain the workshop’s practical limits.",
+    "filmmakerRelationship":"The filmmaker has provisional permission to observe one workshop session. Filming the giveaway, other volunteers, or bicycle recipients requires separate discussion.",
+    "accessStatus":"Possible — follow-up required",
+    "accessUnknowns":"Confirm the workshop date, areas that can be filmed, whether the second volunteer wishes to participate, and whether any giveaway filming is appropriate and permitted.",
+    "ethicsBoundaries":"Avoid portraying bicycle recipients as passive beneficiaries. Do not record names, personal circumstances, or recognizable recipients without meaningful permission. Keep safety decisions accurate and contributor-led.",
+    "likelyScenes":"1. Inspecting the row of donated bicycles and choosing which one to address first.\n2. Comparing a worn brake pad with a safe replacement and adjusting the brake.\n3. Discussing a damaged bicycle with another volunteer and deciding whether it can be prepared in time.\n4. Conducting a careful low-speed test if the repair reaches that stage.",
+    "observableAction":"The mechanic spins wheels, listens for rubbing, squeezes brake levers, compares worn parts, uses hand tools, inflates tires, confers with another volunteer, and tests mechanical response.",
+    "evidence":"The workshop, donated bicycles, repair stands, worn and replacement parts, tools, pumps, cables, wheels, remaining workload, and the sound of each mechanical test.",
+    "sceneUnknowns":"The camera cannot yet know which bicycles are repairable, whether parts are available, what safety decision will be made, or whether a test ride will occur.",
+    "documentaryForm":"A mainly observational process film with brief participatory conversation during diagnosis and repair.",
+    "filmmakerPresence":"The filmmaker may ask short clarifying questions while the mechanic works. The interaction remains audible rather than being presented as invisible observation.",
+    "visualApproach":"Use a wide view to establish the workshop and remaining bicycles, medium coverage of decisions and contributor interaction, and close details of brake pads, chains, cables, tools, hands, and wheel movement. Camera movement remains restrained so mechanical evidence is legible.",
+    "soundApproach":"Record ratchets, pumps, spinning wheels, freewheels, rubbing brakes, tools, room tone, conversation, and pauses during diagnosis. Use music only if it serves a clear structural purpose rather than manufacturing uplift.",
+    "treatment":"Morning light fills the workshop as the mechanic surveys donated bicycles still waiting for inspection. She chooses one, spins its front wheel, and listens for a scrape. At the workbench, she compares a worn brake pad with a replacement, then returns to the bicycle and squeezes the lever. The cable moves, but the pad still misses the rim. Another volunteer joins her to examine a second bicycle whose condition may exceed the time and parts available. If a repair reaches the testing stage, she may take the bicycle into the courtyard for a careful low-speed check. It remains unknown which bicycles will be declared safe, which will wait, and what can be completed before the workshop closes.",
+    "confirmedElements":"The fictional teaching project includes a workshop, donated bicycles, a volunteer mechanic, repair tools, and an observable inspection-and-repair process.",
+    "hypotheses":"The limited preparation window and safety decisions may create present-tense pressure while revealing how the workshop balances care, time, and available parts.",
+    "unknowns":"Actual access, the number and condition of bicycles, parts availability, the second volunteer’s participation, safety decisions, and any giveaway access remain unresolved.",
+    "contingencies":"If a full repair cannot be filmed, reduce the film to one documented inspection and safety decision built around a wheel, brake, or chain—only if that smaller access is confirmed.",
+    "nextTest":"Discuss workshop boundaries and film ten minutes of one inspection to confirm that the diagnostic process is visually and sonically legible.",
+    "smallerPromise":"Do not promise that every bicycle will be repaired, that a test ride will happen, or that the giveaway will transform the community.",
+    "developmentQuestions":"Which participation and locations are confirmed? What inspection can happen during the production window? Who has authority to make the safety decision? What can be filmed if repair parts or giveaway access are unavailable?"
+  },
+  "export": {
+    "proposalTitle":"DOCUMENTARY DEVELOPMENT PACK",
+    "questionsTitle":"DOCUMENTARY DEVELOPMENT QUESTIONS",
+    "questionFields":["accessUnknowns","ethicsBoundaries","sceneUnknowns","unknowns","risks","nextTest","smallerPromise","developmentQuestions"]
+  }
+}
