@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An interactive documentary form lab for DOC 515 — Foundations of Documentary Filmmaking.">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="data:,">
+    <title>Documentary Form Lab: The Same Story, Different Film</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to activity</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="course-mark" href="../">DOC 515</a>
+        <p class="course-name">Foundations of Documentary Filmmaking</p>
+        <div class="header-actions">
+          <button id="teacher-toggle" class="text-button" type="button" aria-pressed="false">Show Teacher Notes</button>
+          <a class="new-tab-link" href="./" target="_blank" rel="noopener">Open in a New Tab</a>
+        </div>
+      </div>
+    </header>
+
+    <noscript>
+      <div class="noscript-message">This interactive lab requires JavaScript. Please enable JavaScript or open it in a browser where JavaScript is allowed.</div>
+    </noscript>
+
+    <main id="main-content" tabindex="-1">
+      <div id="status-region" class="status-region" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div id="app" class="app-shell" aria-busy="true">
+        <p class="loading">Loading the Documentary Form Lab…</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p id="privacy-statement">Your work stays in this browser and is not submitted automatically.</p>
+        <button id="clear-progress" class="text-button" type="button">Clear Saved Progress</button>
+      </div>
+    </footer>
+
+    <script src="core.js"></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

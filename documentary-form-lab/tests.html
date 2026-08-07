@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Documentary Form Lab — Automated Checks</title>
+    <style>
+      body { max-width: 60rem; margin: 2rem auto; padding: 0 1rem; font-family: system-ui, sans-serif; line-height: 1.5; }
+      .pass { color: #145a2a; }
+      .fail { color: #8a1f17; }
+      code { background: #eee; padding: 0.1rem 0.25rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Documentary Form Lab — Automated Checks</h1>
+    <p>These checks cover editable data loading, core state changes, local persistence, reset behavior, and text export.</p>
+    <ol id="results" aria-live="polite"></ol>
+    <p id="summary" role="status"></p>
+    <script src="core.js"></script>
+    <script src="tests.js"></script>
+  </body>
+</html>
