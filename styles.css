@@ -148,6 +148,8 @@ a:focus-visible {
   border-bottom: 1px solid rgba(241, 237, 226, 0.35);
 }
 
+.activity-card + .activity-card { margin-top: 2rem; }
+
 .card-number {
   padding: 2.5rem 1rem 2.5rem 0;
   color: var(--sage);
@@ -160,6 +162,10 @@ a:focus-visible {
   padding: 2.5rem;
   background: var(--clay);
 }
+
+.presentation-card .card-content { background: #2c5962; }
+.form-card .card-content { background: #8b5722; }
+.sequence-card .card-content { background: var(--clay); }
 
 .card-content h3 {
   margin: 0 0 1.25rem;
