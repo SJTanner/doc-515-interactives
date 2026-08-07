@@ -32,6 +32,11 @@ h1 { margin: 0.2rem 0 0; font-family: Georgia, "Times New Roman", serif; font-si
 .slide-stage figure { margin: 0; }
 .slide-stage img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; }
 .slide-stage figcaption { padding: 0.65rem 1rem; background: #142127; color: white; font-size: 0.9rem; }
+.viewing-links { padding: 1rem; background: #142127; color: var(--white); border-top: 1px solid rgba(255, 255, 255, 0.2); }
+.viewing-links h2 { margin: 0 0 0.65rem; font-size: 1rem; }
+.viewing-links ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.65rem; margin: 0; padding: 0; list-style: none; }
+.viewing-links a { display: block; min-height: 2.75rem; padding: 0.65rem 0.8rem; border: 2px solid var(--gold); color: #ffd596; font-weight: 800; text-decoration-thickness: 0.12em; text-underline-offset: 0.16em; }
+.viewing-links a:hover { background: var(--gold); color: var(--ink); }
 .controls { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1rem; margin: 1rem 0; }
 .controls button { min-height: 3rem; border: 0; background: var(--teal); color: white; font-weight: 850; }
 .controls button:last-child { justify-self: end; }
@@ -51,6 +56,7 @@ footer { font-size: 0.78rem; }
   .presentation-heading label { width: 100%; }
   .controls { grid-template-columns: 1fr 1fr; }
   .controls p { grid-column: 1 / -1; grid-row: 1; text-align: center; }
+  .viewing-links ul { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

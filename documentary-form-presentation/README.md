@@ -25,6 +25,7 @@ Open `http://localhost:8002/`.
 
 - Replace slide images in `images/` while preserving their numbered filenames, or update paths in `data/slides.json`.
 - Edit each slide title and transcript in `data/slides.json` whenever visible slide text changes.
+- Slides can include an optional `links` array with editable `label` and `url` fields. These become accessible, keyboard-focusable viewing links beneath the slide.
 - Keep images at a 16:9 ratio. The current images are 1600 × 900 pixels.
 - Replace `the-same-story-different-film.pptx` when the source deck changes.
 

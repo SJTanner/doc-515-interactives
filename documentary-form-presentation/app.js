@@ -26,9 +26,20 @@
     window.requestAnimationFrame(() => { status.textContent = message; });
   }
 
+  function renderViewingLinks(slide) {
+    if (!Array.isArray(slide.links) || slide.links.length === 0) return "";
+    const items = slide.links.map((link) => `
+      <li>
+        <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">
+          ${escapeHtml(link.label)} — official viewing page <span aria-hidden="true">↗</span>
+        </a>
+      </li>`).join("");
+    return `<nav class="viewing-links" aria-label="Official viewing pages"><h2>Official viewing pages</h2><ul>${items}</ul></nav>`;
+  }
+
   function render(shouldAnnounce = true) {
     const slide = content.slides[index];
-    stage.innerHTML = `<figure><img src="${escapeHtml(slide.image)}" alt="Slide ${index + 1} of ${content.slides.length}: ${escapeHtml(slide.title)}"><figcaption>${escapeHtml(slide.title)}</figcaption></figure>`;
+    stage.innerHTML = `<figure><img src="${escapeHtml(slide.image)}" alt="Slide ${index + 1} of ${content.slides.length}: ${escapeHtml(slide.title)}"><figcaption>${escapeHtml(slide.title)}</figcaption></figure>${renderViewingLinks(slide)}`;
     transcript.innerHTML = `<h2>Slide ${index + 1}: ${escapeHtml(slide.title)}</h2><p>${escapeHtml(slide.transcript)}</p>`;
     count.textContent = `Slide ${index + 1} of ${content.slides.length}`;
     select.value = String(index);
