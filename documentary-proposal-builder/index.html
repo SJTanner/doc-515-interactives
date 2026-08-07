@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A private, non-scored documentary proposal and treatment builder for DOC 515.">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="data:,">
+    <title>Documentary Proposal Builder — DOC 515</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+  </head>
+  <body>
+    <a class="skip-link" href="#activity">Skip to activity</a>
+    <header class="site-header">
+      <a class="course-mark" href="../">DOC 515</a>
+      <p>Module 2 · Lesson 3 · Activity 1</p>
+      <button id="teacher-toggle" class="quiet-button" type="button" aria-pressed="false">Teacher example: off</button>
+    </header>
+    <main id="activity" tabindex="-1">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Activity 1</p>
+        <h1 id="page-title">Documentary Proposal Builder</h1>
+        <p class="lede">Turn a filmable idea into a connected development pack. Write only what you know, label hypotheses and unknowns, and revise as your research and access change.</p>
+        <div class="privacy-note">
+          <strong>Private by design.</strong> No login, submission, analytics, or numerical score. Your writing stays in this browser unless you copy, download, or print it. Do not enter private contact details.
+        </div>
+      </section>
+
+      <div id="load-error" class="error-panel" role="alert" hidden></div>
+      <section id="builder" class="builder" aria-label="Proposal builder" hidden>
+        <nav class="step-nav" aria-label="Proposal sections"><ol id="step-list"></ol></nav>
+        <div class="workspace">
+          <div class="workspace-header">
+            <div>
+              <p id="step-count" class="eyebrow"></p>
+              <h2 id="step-title"></h2>
+              <p id="step-introduction"></p>
+            </div>
+            <p id="save-status" class="save-status" role="status" aria-live="polite">Ready</p>
+          </div>
+          <form id="proposal-form" novalidate><div id="fields"></div></form>
+          <aside id="teacher-example" class="teacher-example" hidden aria-labelledby="teacher-example-title">
+            <h3 id="teacher-example-title">Teacher example: community bicycle workshop</h3>
+            <p>This is a fictional structural model, not text to copy into your project.</p>
+            <div id="example-content"></div>
+          </aside>
+          <div class="step-controls">
+            <button id="previous-step" type="button">← Previous section</button>
+            <button id="next-step" type="button">Next section →</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="summary" class="summary" aria-labelledby="summary-title" hidden>
+        <p class="eyebrow">Reflection summary and export</p>
+        <h2 id="summary-title">Your development pack</h2>
+        <p>Review the full proposal below. Return to any section to revise it without restarting.</p>
+        <div class="summary-actions">
+          <button id="copy-proposal" type="button">Copy proposal</button>
+          <button id="download-proposal" type="button">Download proposal .txt</button>
+          <button id="copy-questions" type="button">Copy development questions</button>
+          <button id="download-questions" type="button">Download questions .txt</button>
+          <button id="print-summary" type="button">Print / Save PDF</button>
+        </div>
+        <article id="proposal-preview" class="proposal-preview"></article>
+      </section>
+
+      <section class="data-controls" aria-labelledby="data-title">
+        <h2 id="data-title">Your saved work</h2>
+        <p>Reset permanently deletes this activity’s saved writing from this browser.</p>
+        <button id="reset-activity" class="danger-button" type="button">Reset and delete my work</button>
+      </section>
+    </main>
+    <footer><p>DOC 515 · Foundations of Documentary Filmmaking</p><p>Editable prompts: <code>data/proposal-builder-data.json</code></p></footer>
+    <script src="core.js?v=1"></script>
+    <script src="app.js?v=1" defer></script>
+  </body>
+</html>
