@@ -24,8 +24,27 @@
     { "image": "images/slide-20.png", "title": "Poetic version", "transcript": "Compose a sensory elegy from soil, hands, voices, seasons, empty beds, and the sounds of surrounding construction. Camera: collect image and sound motifs; build rhythm, association, and contrast. Story pressure: loss is felt through what changes in the place and its soundscape." },
     { "image": "images/slide-21.png", "title": "Performative / personal version", "transcript": "A gardener tells the history of the place through the plants, objects, and memories that shaped her own life. Camera: first-person narration, embodied action, family archive, and intimate encounter. Story pressure: the possible closure challenges identity, memory, and belonging." },
     { "image": "images/slide-22.png", "title": "What stays—and what changes?", "transcript": "Stays: the garden and closure threat; core people and place; access and ethical obligations. Changes: what counts as evidence; filmmaker presence; camera and sound behavior; structure, authority, and feeling." },
-    { "image": "images/slide-23.png", "title": "Short documentaries to study", "transcript": "Ten Meter Tower: observe behavior, hesitation, repetition, and change. The Housekeeper: study character, labor, routine, and social context. Street Lessons: track point of view, place, and lived experience. The Queen of Basketball: notice archive, interview, revelation, and emotional structure." },
-    { "image": "images/slide-24.png", "title": "More approaches to explore", "transcript": "Three Thousand: consider archive, sound, time, memory, and poetic form. My Dead Dad’s Porno Tapes: analyze personal narration, objects, animation, and family archive. Perfecting the Art of Longing: examine intimacy, waiting, image design, and uncertainty." },
+    {
+      "image": "images/slide-23.png",
+      "title": "Short documentaries to study",
+      "transcript": "Ten Meter Tower: observe behavior, hesitation, repetition, and change. The Housekeeper: study character, labor, routine, and social context. Street Lessons: track point of view, place, and lived experience. The Queen of Basketball: notice archive, interview, revelation, and emotional structure.",
+      "links": [
+        { "label": "Ten Meter Tower", "url": "https://www.arte.tv/fr/videos/067728-000-A/ten-meter-tower/" },
+        { "label": "The Housekeeper", "url": "https://vimeo.com/38515567" },
+        { "label": "Street Lessons", "url": "https://www.nfb.ca/film/street-lessons/" },
+        { "label": "The Queen of Basketball", "url": "https://www.youtube.com/watch?v=vPFkcoTfr7g" }
+      ]
+    },
+    {
+      "image": "images/slide-24.png",
+      "title": "More approaches to explore",
+      "transcript": "Three Thousand: consider archive, sound, time, memory, and poetic form. My Dead Dad’s Porno Tapes: analyze personal narration, objects, animation, and family archive. Perfecting the Art of Longing: examine intimacy, waiting, image design, and uncertainty.",
+      "links": [
+        { "label": "Three Thousand", "url": "https://www.nfb.ca/film/three-thousand/" },
+        { "label": "My Dead Dad’s Porno Tapes", "url": "https://vimeo.com/292537862" },
+        { "label": "Perfecting the Art of Longing", "url": "https://www.nfb.ca/film/perfecting-the-art-of-longing/" }
+      ]
+    },
     { "image": "images/slide-25.png", "title": "Move from response to evidence", "transcript": "What stayed with you—and which exact moment created that response? What is the film’s story, not merely its topic? What form dominates? What other approaches does it borrow? How are scenes, interviews, archive, narration, image, and sound used? What is one strength, one limitation, and one lesson for your own film?" },
     { "image": "images/slide-26.png", "title": "Build three films from one story", "transcript": "Explore the supplied community-garden story world. Choose three forms. For each, define filmmaker presence, evidence, scene strategy, image, sound, and ethical pressure. Compare two versions side by side. Export a non-scored reflection summary. The test is not ‘Which version is best?’ It is ‘What film does each set of choices make possible?’" },
     { "image": "images/slide-27.png", "title": "Choose provisionally—not permanently", "transcript": "Primary form: Which form best serves the story you can actually access and film? Alternative form: What would another form reveal—or protect—that your first choice might miss? Name the access test or small experiment that will help you decide." },
