@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic interview teaching image</title>
+  <desc id="desc">A contributor moves and gestures through a rehearsal space while a filmmaker follows with a camera and microphone.</desc>
+  <rect width="1600" height="900" fill="#e8f4f1"/>
+  <path d="M0 590c250-110 430-95 650 0s420 95 950-40v350H0z" fill="#2d8b82"/>
+  <circle cx="260" cy="210" r="150" fill="#f2b632"/>
+  <path d="M0 160h1600M0 345h1600" stroke="#2673c9" stroke-width="18" opacity=".2"/>
+  <circle cx="845" cy="290" r="82" fill="#7c432d"/>
+  <path d="M720 620c20-165 62-248 125-248 66 0 110 84 133 248" fill="#d95d39"/>
+  <path d="M760 430L550 505M930 430l190 100" stroke="#7c432d" stroke-width="42" stroke-linecap="round"/>
+  <path d="M830 620l-105 205M900 620l125 205" stroke="#132a3a" stroke-width="48" stroke-linecap="round"/>
+  <circle cx="1200" cy="380" r="65" fill="#7c432d"/>
+  <path d="M1110 650c20-144 52-210 90-210 44 0 80 70 100 210" fill="#132a3a"/>
+  <rect x="1010" y="455" width="150" height="105" rx="14" fill="#19313e"/>
+  <circle cx="1052" cy="507" r="30" fill="#2673c9"/>
+  <path d="M1010 485l-85-45v120l85-42z" fill="#19313e"/>
+  <path d="M1082 565v115" stroke="#19313e" stroke-width="16"/>
+  <path d="M1130 250l-135 190" stroke="#19313e" stroke-width="18" stroke-linecap="round"/>
+  <rect x="948" y="405" width="145" height="25" rx="12" fill="#19313e"/>
+  <g fill="#2673c9" opacity=".85">
+    <circle cx="390" cy="470" r="44"/><circle cx="500" cy="405" r="38"/><circle cx="1340" cy="465" r="44"/><circle cx="1440" cy="400" r="36"/>
+  </g>
+  <text x="105" y="805" fill="#fffdf7" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="8">DYNAMIC INTERVIEW</text>
+</svg>
