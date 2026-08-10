@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "title": "Interview Direction Lab",
+  "steps": [
+    {
+      "shortTitle": "Purpose",
+      "title": "Purpose and contributor",
+      "introduction": "Begin with what this contributor can reveal through experience, knowledge, action, memory, or relationship.",
+      "fields": [
+        {"id":"workingTitle","label":"Working film title","type":"input","help":"Use a provisional title. It can change as the project develops."},
+        {"id":"contributorRole","label":"Contributor and story role","type":"textarea","size":"short","help":"Identify the person by role rather than private contact details. What do they know, do, want, remember, or risk?"},
+        {"id":"interviewPurpose","label":"Purpose of this interview","type":"textarea","help":"What could this encounter contribute to the film that cannot be gained from general background research alone?","caution":"Using the interview only to deliver information the film could explain elsewhere."},
+        {"id":"audienceUnderstanding","label":"What should the audience be able to understand or experience?","type":"textarea","size":"short","help":"Describe the audience need without scripting what the contributor must say."}
+      ]
+    },
+    {
+      "shortTitle": "Form",
+      "title": "Static, dynamic, or combined strategy",
+      "introduction": "Choose the form by asking what the story needs the contributor to do. Static and dynamic are strategies, not hierarchies.",
+      "fields": [
+        {"id":"interviewForm","label":"Provisional interview form","type":"radio","help":"Choose the strategy that currently serves the story, contributor, access, and production conditions.","options":[
+          {"value":"static","label":"Static","description":"Concentrate attention, reflection, framing, and clean sound."},
+          {"value":"dynamic","label":"Dynamic","description":"Place speech inside action, movement, work, location, or encounter."},
+          {"value":"combined","label":"Combined","description":"Use each strategy for a distinct story purpose."},
+          {"value":"undecided","label":"Undecided","description":"Name the test needed before making the choice."}
+        ]},
+        {"id":"storyNeed","label":"What does the story need the contributor to do?","type":"textarea","help":"Will they reflect, remember, demonstrate, navigate, work, interact, revisit a place, or do something else observable?"},
+        {"id":"formReason","label":"Why does this form serve the contributor and story?","type":"textarea","help":"Connect the choice to attention, action, place, relationship, comfort, access, image, and sound.","caution":"Choosing movement only for visual variety or stillness only for convenience."},
+        {"id":"formTest","label":"What must you test before recording?","type":"textarea","size":"short","help":"Name a small test of location, movement, task, comfort, camera position, or sound that could confirm or revise the choice."}
+      ]
+    },
+    {
+      "shortTitle": "Agency",
+      "title": "Relationship, consent, and boundaries",
+      "introduction": "Contributor agency begins before recording. Explain the project and revisit consent as conditions change.",
+      "fields": [
+        {"id":"relationship","label":"Your relationship to the contributor","type":"textarea","size":"short","help":"How do you know them, and how might that position affect trust, access, expectation, power, or interpretation?"},
+        {"id":"projectExplanation","label":"What will you explain before recording?","type":"textarea","help":"Describe how you will explain the project, likely use of the material, practical process, filmmaker presence, and meaningful choices."},
+        {"id":"boundaries","label":"Topics, locations, people, or actions needing care","type":"textarea","help":"Identify boundaries, vulnerability, privacy, safety, or changing circumstances that require a specific conversation."},
+        {"id":"consentCheck","label":"How will you check and revisit consent?","type":"textarea","size":"short","help":"Plan when and how you will confirm understanding, comfort, participation, and any agreed limits."},
+        {"id":"stopCondition","label":"Clear stop or change-direction condition","type":"textarea","size":"short","help":"Name a sign or circumstance that would make you pause, stop, move, change the question, or abandon the planned action.","caution":"Treating a signed form as permission to ignore discomfort or changing circumstances."}
+      ]
+    },
+    {
+      "shortTitle": "Questions",
+      "title": "Question route",
+      "introduction": "Build a map, not a script. Move from an open invitation toward specific events, sensory detail, and responsive follow-up.",
+      "fields": [
+        {"id":"openInvitation","label":"Opening invitation","type":"textarea","size":"short","help":"Write an open prompt that helps the contributor begin in their own terms."},
+        {"id":"specificEvent","label":"Specific event or moment","type":"textarea","size":"short","help":"Ask for an experience located in time and place rather than a general opinion."},
+        {"id":"sensoryDetail","label":"Detail prompt","type":"textarea","size":"short","help":"Invite concrete memory: what they noticed, heard, saw, felt, handled, or did."},
+        {"id":"followUps","label":"Responsive follow-ups","type":"textarea","help":"Prepare useful prompts such as: What happened next? Where were you? Who else was present? What did you notice? Leave room to follow the contributor’s exact words."},
+        {"id":"showPrompt","label":"Action or place invitation","type":"textarea","size":"short","help":"If appropriate, ask whether they can show, demonstrate, revisit, or take you somewhere. Keep consent, safety, and accuracy visible."},
+        {"id":"closingQuestion","label":"Closing invitation","type":"textarea","size":"short","help":"Give the contributor space to add, correct, qualify, or identify what the interview has missed."}
+      ]
+    },
+    {
+      "shortTitle": "Direction",
+      "title": "Listening and responsive direction",
+      "introduction": "Listening is the primary directing skill. Notice language, pauses, energy, contradiction, and openings into scenes.",
+      "fields": [
+        {"id":"listeningCues","label":"What will you listen and watch for?","type":"checkboxes","help":"Choose the cues you want to keep active during the encounter.","options":[
+          {"value":"exact-words","label":"Exact words or phrases worth following"},
+          {"value":"pauses","label":"Pauses and changes in pace"},
+          {"value":"energy","label":"Changes in energy, emotion, or certainty"},
+          {"value":"contradictions","label":"Contradictions or revisions"},
+          {"value":"people-places","label":"References to people, places, objects, or events"},
+          {"value":"actions","label":"Actions that could be shown or revisited"}
+        ]},
+        {"id":"silencePlan","label":"How will you make room for silence?","type":"textarea","size":"short","help":"Describe how you will resist filling every pause with the next prepared question."},
+        {"id":"filmmakerPresence","label":"How will the film acknowledge your presence?","type":"textarea","size":"short","help":"Will questions be heard? Will you be visible or interacting? Will the contributor answer in complete thoughts? Make the choice explicit."},
+        {"id":"unexpectedAnswer","label":"If an answer opens an unexpected scene…","type":"textarea","help":"How will you decide whether to follow it, pause for clarification, return later, or protect a boundary?"}
+      ]
+    },
+    {
+      "shortTitle": "Image & sound",
+      "title": "Image, movement, and sound plan",
+      "introduction": "Build the recording conditions before the first question. A usable answer depends on picture, sound, comfort, and safety.",
+      "fields": [
+        {"id":"visualPlan","label":"Framing and visual plan","type":"textarea","help":"Describe camera distance, eyeline, background, light, body position, movement, and how the frame supports the contributor and story."},
+        {"id":"dynamicRoute","label":"If the interview moves: route and stopping points","type":"textarea","help":"Plan the action, route, pace, transitions, stopping points, camera position, background activity, and safety. If static, explain why movement is unnecessary."},
+        {"id":"soundPlan","label":"Sound plan","type":"textarea","help":"Choose the quietest workable location, microphone placement, headphone monitoring, room tone, and how you will handle clothing, traffic, ventilation, movement, or other noise."},
+        {"id":"preflight","label":"Before recording, confirm…","type":"checkboxes","help":"Use this as a preparation check, not a score.","options":[
+          {"value":"consent","label":"The contributor understands the project and current plan"},
+          {"value":"boundaries","label":"Relevant boundaries and stop conditions are clear"},
+          {"value":"frame","label":"Frame, eyeline, background, and light are intentional"},
+          {"value":"sound","label":"Microphone is placed and monitored with headphones"},
+          {"value":"noise","label":"Likely noise and interruptions have been checked"},
+          {"value":"room-tone","label":"Time is planned for room tone or location atmosphere"},
+          {"value":"route","label":"Any route, action, or stopping points are achievable and safe"}
+        ]}
+      ]
+    },
+    {
+      "shortTitle": "Reflection",
+      "title": "Direction reflection and next action",
+      "introduction": "Test whether the plan creates conditions for discovery while protecting the contributor and the integrity of the film.",
+      "fields": [
+        {"id":"reveal","label":"What can this contributor reveal?","type":"textarea","size":"short","help":"Name the experience, knowledge, relationship, memory, decision, or process that gives the encounter value."},
+        {"id":"witness","label":"What can the camera and microphone witness?","type":"textarea","size":"short","help":"Name observable action, behavior, place, sound, interaction, or change—not only an expected statement."},
+        {"id":"protect","label":"What must your directing choices protect?","type":"textarea","size":"short","help":"Consider agency, consent, dignity, accuracy, comfort, safety, boundaries, and the audience’s understanding."},
+        {"id":"nextAction","label":"Your next practical action","type":"textarea","size":"short","help":"State one achievable conversation, location test, sound test, question rehearsal, or access check to complete before recording."},
+        {"id":"revision","label":"What part of the plan may need to change?","type":"textarea","size":"short","help":"Identify the assumption most likely to be revised when you meet the real contributor, location, action, or production condition."}
+      ]
+    }
+  ],
+  "teacherExample": {
+    "workingTitle":"Holding the Note (working title)",
+    "contributorRole":"The volunteer choir director leads an intergenerational community choir and makes practical decisions about rehearsal, confidence, blend, and performance readiness.",
+    "interviewPurpose":"Reveal how the director listens, corrects, encourages, and carries responsibility for a group whose abilities and confidence vary.",
+    "audienceUnderstanding":"Experience leadership as a series of attentive decisions rather than a general claim about the value of music.",
+    "interviewForm":"Combined",
+    "storyNeed":"The film needs the director both to reflect on responsibility and to demonstrate that responsibility through rehearsal decisions, gesture, correction, and listening.",
+    "formReason":"A brief static encounter can support concentration and memory. Dynamic conversation during a simple rehearsal passage can reveal leadership through action and sound.",
+    "formTest":"Record a short rehearsal sound test and walk the camera route without interviewing to confirm that voices remain intelligible and movement does not interrupt the choir.",
+    "relationship":"The filmmaker has provisional access through the choir director. Participation by individual choir members requires separate discussion rather than being assumed.",
+    "projectExplanation":"Explain the short course film, how rehearsal and interview material may be combined, whether questions will be heard, where the film may be shown, and that participation can be paused.",
+    "boundaries":"Confirm which choir members wish to appear, whether any rehearsal material should remain private, and whether correction or difficulty creates discomfort for particular participants.",
+    "consentCheck":"Confirm the plan before recording, check again before moving into rehearsal, and pause if a participant or the director signals concern.",
+    "stopCondition":"Stop or redirect if a participant withdraws, a correction becomes personally sensitive, the planned movement obstructs rehearsal, or sound cannot be recorded without disrupting the group.",
+    "openInvitation":"When you enter this room before rehearsal, what are you listening for?",
+    "specificEvent":"Tell me about a rehearsal when the group suddenly began to sound different.",
+    "sensoryDetail":"What did you hear that told you the singers had found it?",
+    "followUps":"What happened just before that? What did you change? Who noticed first? What did you do next?",
+    "showPrompt":"Would you be comfortable showing how you help the group find the opening note?",
+    "closingQuestion":"What have I not asked that matters to how you lead this choir?",
+    "listeningCues":["Exact words", "Pauses", "Changes in energy", "References to people, places, objects, or events", "Actions that could be shown"],
+    "silencePlan":"After a reflective answer, count a quiet beat before checking the question route. Let the director decide whether to continue or revise the answer.",
+    "filmmakerPresence":"Questions may remain audible so the encounter is not presented as invisible observation. During rehearsal, prompts will be brief and will not compete with the director’s attention.",
+    "unexpectedAnswer":"If the director refers to a sensitive moment involving a singer, pause and ask whether the topic should remain general, continue off camera, or stop.",
+    "visualPlan":"Use a stable medium frame for reflection with a meaningful but uncluttered rehearsal background. During rehearsal, use restrained handheld or supported movement that keeps the director’s gestures and relationship to the group legible.",
+    "dynamicRoute":"Begin beside the rehearsal circle, move only between songs, and establish two safe stopping positions that do not block singers or music stands.",
+    "soundPlan":"Use a close microphone for the director, monitor continuously, test the room’s reverberation, record quiet room tone before singers arrive, and gather rehearsal atmosphere separately.",
+    "preflight":["Contributor understands the plan", "Boundaries are clear", "Frame and light are intentional", "Microphone is monitored", "Noise is checked", "Room tone is planned", "Route is safe"],
+    "reveal":"The director can reveal how care and authority operate through listening and small decisions.",
+    "witness":"The camera can witness gesture, correction, repetition, interaction, and the group’s sound changing in response.",
+    "protect":"The plan must protect voluntary participation, dignity during correction, rehearsal safety, musical accuracy, and the director’s ability to lead.",
+    "nextAction":"Hold a contributor and location conversation, then complete a five-minute sound and route test without recording a formal interview.",
+    "revision":"The dynamic section may need to become observational if conversation interferes with rehearsal or if the room makes usable speech impossible."
+  },
+  "export": {
+    "title": "INTERVIEW DIRECTION PLAN",
+    "disclosure": "Prepared with the DOC 515 Interview Direction Lab. This is a planning document, not proof of consent or permission."
+  }
+}
