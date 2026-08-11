@@ -37,6 +37,11 @@
   function normalizeState(data, saved) {
     var fresh = createState(data);
     if (!saved || typeof saved !== "object") return fresh;
+    var validExampleIds = data.example.scenes.map(function (scene) { return scene.id; });
+    var savedExampleOrder = Array.isArray(saved.exampleOrder)
+      ? saved.exampleOrder.filter(function (id) { return validExampleIds.includes(id); })
+      : [];
+    validExampleIds.forEach(function (id) { if (!savedExampleOrder.includes(id)) savedExampleOrder.push(id); });
     var scenes = Array.isArray(saved.scenes) && saved.scenes.length
       ? saved.scenes.slice(0, 8).map(function (scene, index) { return Object.assign(makeScene(index), scene, { id: "scene-" + (index + 1) }); })
       : fresh.scenes;
@@ -49,7 +54,7 @@
       currentStep: Math.max(0, Math.min(Number(saved.currentStep) || 0, data.navigation.length - 1)),
       selectedEssential: data.sceneEssentials.some(function (item) { return item.id === saved.selectedEssential; }) ? saved.selectedEssential : fresh.selectedEssential,
       selectedExampleTest: data.sceneTests.some(function (item) { return item.id === saved.selectedExampleTest; }) ? saved.selectedExampleTest : fresh.selectedExampleTest,
-      exampleOrder: Array.isArray(saved.exampleOrder) && saved.exampleOrder.length === data.example.scenes.length ? saved.exampleOrder : fresh.exampleOrder,
+      exampleOrder: savedExampleOrder.length === validExampleIds.length ? savedExampleOrder : fresh.exampleOrder,
       project: Object.assign(fresh.project, saved.project || {}),
       scenes: scenes,
       interviews: Object.assign(fresh.interviews, saved.interviews || {}),

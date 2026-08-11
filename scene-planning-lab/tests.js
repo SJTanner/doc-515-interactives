@@ -26,9 +26,10 @@
     test("At least one scene is retained", function () { var state = core.createState(data); core.removeScene(state, "scene-3"); core.removeScene(state, "scene-2"); core.removeScene(state, "scene-1"); return state.scenes.length === 1; });
     test("Accessible earlier/later movement returns a new order", function () { var order = ["a", "b", "c"]; return core.move(order, "b", -1).join("") === "bac" && order.join("") === "abc"; });
     test("Saved data is normalized with valid scene IDs and sequence entries", function () { var saved = { scenes: [{ title: "A" }, { title: "B" }], sequenceOrder: ["missing"] }; var state = core.normalizeState(data, saved); return state.scenes[0].id === "scene-1" && state.sequenceOrder.join("|") === "scene-1|scene-2"; });
+    test("An older example order is replaced with the current story scene IDs", function () { var state = core.normalizeState(data, { exampleOrder: ["old-1", "old-2", "old-3", "old-4"] }); return state.exampleOrder.join("|") === data.example.canonicalOrder.join("|"); });
     test("Text export contains project, scene, static, dynamic, and reflection sections", function () { var text = core.buildExport(data, core.createState(data)); return ["PROJECT", "SCENE LIST", "STATIC INTERVIEW", "DYNAMIC INTERVIEW", "SEQUENCE REFLECTION"].every(function (heading) { return text.includes(heading); }); });
     test("Text export explicitly reports private, non-scored use", function () { var text = core.buildExport(data, core.createState(data)); return text.includes("No score was calculated") && text.includes("no data was submitted"); });
-    summary.textContent = failures ? failures + " test(s) failed." : "All 9 tests passed.";
+    summary.textContent = failures ? failures + " test(s) failed." : "All 10 tests passed.";
   } catch (error) {
     failures += 1; summary.textContent = "Tests could not run: " + error.message; summary.className = "fail";
   }

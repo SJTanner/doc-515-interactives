@@ -88,14 +88,14 @@
     els.exampleFrame.innerHTML = "<div><dt>Subject</dt><dd>" + escapeHtml(data.example.subject) + "</dd></div><div><dt>Central contributor</dt><dd>" + escapeHtml(data.example.contributor) + "</dd></div><div><dt>Story question</dt><dd>" + escapeHtml(data.example.storyQuestion) + "</dd></div>";
     els.exampleScenes.innerHTML = state.exampleOrder.map(function (id, index) {
       var scene = exampleById(id);
-      return '<article class="example-card"><img src="' + escapeHtml(scene.image) + '" alt="' + escapeHtml(scene.alt) + '"><div class="example-copy"><p class="position">Scene position ' + (index + 1) + "</p><h3>" + escapeHtml(scene.title) + "</h3><p>" + escapeHtml(scene.summary) + "</p><dl><dt>Story role</dt><dd>" + escapeHtml(scene.role) + "</dd><dt>Turn</dt><dd>" + escapeHtml(scene.turn) + "</dd><dt>Interview</dt><dd>" + escapeHtml(scene.interview) + '</dd></dl><div class="move-controls"><button type="button" data-example-id="' + scene.id + '" data-direction="-1"' + (index === 0 ? " disabled" : "") + '>← Earlier</button><button type="button" data-example-id="' + scene.id + '" data-direction="1"' + (index === state.exampleOrder.length - 1 ? " disabled" : "") + ">Later →</button></div></div></article>";
+      return '<article class="example-card"><img src="' + escapeHtml(scene.image) + '" alt="' + escapeHtml(scene.alt) + '"><div class="example-copy"><p class="position">Scene position ' + (index + 1) + "</p><h3>" + escapeHtml(scene.title) + "</h3><p>" + escapeHtml(scene.summary) + "</p><dl><dt>Story role</dt><dd>" + escapeHtml(scene.role) + "</dd><dt>Plot point</dt><dd>" + escapeHtml(scene.turn) + "</dd><dt>Interview</dt><dd>" + escapeHtml(scene.interview) + '</dd></dl><div class="move-controls"><button type="button" data-example-id="' + scene.id + '" data-direction="-1"' + (index === 0 ? " disabled" : "") + '>← Earlier</button><button type="button" data-example-id="' + scene.id + '" data-direction="1"' + (index === state.exampleOrder.length - 1 ? " disabled" : "") + ">Later →</button></div></div></article>";
     }).join("");
     els.exampleScenes.querySelectorAll("button").forEach(function (button) {
       button.addEventListener("click", function () { moveExample(button.dataset.exampleId, Number(button.dataset.direction)); });
     });
     var canonical = state.exampleOrder.join("|") === data.example.canonicalOrder.join("|");
     els.exampleFeedback.textContent = canonical
-      ? "This order establishes Maya and the stakes, introduces a complication, follows the decisive event, and ends with consequence."
+      ? "This order establishes Nia, the mission, and the deadline; blocks the expected route; escalates the reroute; and ends with a consequential handoff."
       : "This order creates a different viewing experience. Ask what the audience now knows first, where uncertainty enters, and whether consequence arrives before its cause.";
   }
 

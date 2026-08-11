@@ -23,11 +23,11 @@ Edit `data/scene-planning-data.json`. It contains:
 - the five navigation labels;
 - the six scene essentials;
 - the topic/setup/scene comparison;
-- the fictional community-radio example and image paths;
+- the fictional food-rescue story, plot points, interview choices, and image paths;
 - selectable scene roles and interview modes;
 - reflection prompts.
 
-The current 16:9 images are shared from `../scene-story-lab/images/`. Replace those image files while keeping the filenames, or update the paths and alt text in the JSON.
+The four 16:9 images for the fictional teaching example are in `images/`. Replace those image files while keeping the filenames, or update the paths and alt text in the JSON.
 
 ## Privacy and persistence
 
