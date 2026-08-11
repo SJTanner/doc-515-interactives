@@ -1,5 +1,6 @@
 {
   "title": "Scene Planning Lab",
+  "revision": "storm-delivery-v1",
   "navigation": ["Scene essentials", "Read an example", "Build your scene list", "Place interviews", "Sequence and export"],
   "sceneEssentials": [
     {
