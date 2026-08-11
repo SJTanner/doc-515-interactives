@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A private, non-scored documentary scene and interview planning lab for DOC 515.">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="data:,">
+    <title>Scene Planning Lab — DOC 515</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+  </head>
+  <body>
+    <a class="skip-link" href="#activity">Skip to activity</a>
+    <header class="site-header">
+      <a class="course-mark" href="../">DOC 515</a>
+      <p>Lesson 6 · Activity 1</p>
+      <p id="save-status" class="save-status" role="status" aria-live="polite">Ready</p>
+    </header>
+
+    <main id="activity" tabindex="-1">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Activity 1</p>
+          <h1 id="page-title">Scene Planning Lab</h1>
+          <p class="lede">A documentary scene is a present-time event—not simply a topic, location, or interview. Test what makes a scene filmable, plan the scenes your short documentary needs, place static and dynamic interviews, and build a sequence that tells a story.</p>
+          <div class="privacy-note"><strong>Private by design.</strong> No login, submission, analytics, or numerical score. Your writing stays in this browser unless you copy, download, or print it. Do not enter private contact details.</div>
+        </div>
+        <figure class="hero-frame">
+          <img src="../scene-story-lab/images/scene-3-live-response.png" alt="Fictional community-radio host speaking live while a volunteer producer monitors equipment">
+          <figcaption>Fictional teaching example · The Last Local Broadcast</figcaption>
+        </figure>
+      </section>
+
+      <div id="load-error" class="error-panel" role="alert" hidden></div>
+
+      <section id="lab" hidden>
+        <nav class="step-nav" aria-label="Activity sections"><ol id="step-list"></ol></nav>
+
+        <section id="essentials-panel" class="panel" aria-labelledby="essentials-title">
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 1 · Scene essentials</p><h2 id="essentials-title" tabindex="-1">What makes something a scene?</h2></div>
+            <p>Explore the six elements, then compare a topic, a setup, and a filmable scene. There is no score: the aim is to sharpen your judgment.</p>
+          </div>
+          <div id="essential-controls" class="essential-controls"></div>
+          <article id="essential-detail" class="feature-detail" aria-live="polite"></article>
+          <section class="scene-test" aria-labelledby="scene-test-title">
+            <h3 id="scene-test-title">Topic, setup, or scene?</h3>
+            <p>Choose an example to examine what is present and what is still missing.</p>
+            <div id="test-controls" class="test-controls"></div>
+            <div id="test-feedback" class="narrative-feedback" aria-live="polite"></div>
+          </section>
+        </section>
+
+        <section id="example-panel" class="panel" aria-labelledby="example-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 2 · Read an example</p><h2 id="example-title" tabindex="-1">A subject becomes a sequence of scenes</h2></div>
+            <p>Study how a contributor, a story question, and four present-time events create a progression. Move scenes to see how order changes meaning.</p>
+          </div>
+          <dl id="example-frame" class="project-frame"></dl>
+          <div id="example-scenes" class="example-scenes"></div>
+          <p id="example-order-feedback" class="narrative-feedback" role="status" aria-live="polite"></p>
+        </section>
+
+        <section id="scenes-panel" class="panel" aria-labelledby="scenes-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 3 · Build your scene list</p><h2 id="scenes-title" tabindex="-1">Plan the story events you can film</h2></div>
+            <p>Start with your subject and central contributor. Then plan each scene as an event with action, pressure, evidence, and a story consequence.</p>
+          </div>
+          <form id="scene-form" novalidate>
+            <fieldset class="project-fields">
+              <legend>Your documentary frame</legend>
+              <div class="field"><label for="project-subject">Subject</label><p id="project-subject-help">What real situation, world, process, or issue is the film about?</p><textarea id="project-subject" data-project="subject" aria-describedby="project-subject-help"></textarea></div>
+              <div class="field"><label for="project-contributor">Central contributor</label><p id="project-contributor-help">Whose experience, choices, or actions can carry the story?</p><textarea id="project-contributor" data-project="contributor" aria-describedby="project-contributor-help"></textarea></div>
+              <div class="field"><label for="project-question">Story question</label><p id="project-question-help">What present-tense question can the film follow?</p><textarea id="project-question" data-project="storyQuestion" aria-describedby="project-question-help"></textarea></div>
+              <div class="field"><label for="project-stakes">Stakes or possible change</label><p id="project-stakes-help">What matters, and what could be different by the end?</p><textarea id="project-stakes" data-project="stakes" aria-describedby="project-stakes-help"></textarea></div>
+            </fieldset>
+            <div class="scene-list-heading"><div><h3>Your scenes</h3><p>Plan three to eight scenes. You can remove scenes you do not need.</p></div><button id="add-scene" type="button">+ Add a scene</button></div>
+            <p id="scene-count-status" class="status-line" role="status" aria-live="polite"></p>
+            <div id="scene-fields" class="scene-fields"></div>
+          </form>
+        </section>
+
+        <section id="interviews-panel" class="panel" aria-labelledby="interviews-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 4 · Place interviews</p><h2 id="interviews-title" tabindex="-1">Decide what should be said—and what should be seen</h2></div>
+            <p>Place interviews deliberately. A static interview can deepen reflection; a dynamic interview can reveal thought during action. Neither should replace filmable scenes.</p>
+          </div>
+          <form id="interview-form" class="interview-grid" novalidate>
+            <fieldset><legend>Static interview</legend><p class="section-intro">A planned conversation in a controlled position and setting.</p><div class="field"><label for="static-what">Who and what will you ask?</label><textarea id="static-what" data-interview="staticWhat"></textarea></div><div class="field"><label for="static-where">Where will you film it?</label><textarea id="static-where" data-interview="staticWhere"></textarea></div><div class="field"><label for="static-purpose">What story purpose will it serve?</label><textarea id="static-purpose" data-interview="staticPurpose"></textarea></div></fieldset>
+            <fieldset><legend>Dynamic interview</legend><p class="section-intro">Short questions or conversation while the contributor is moving or doing something relevant.</p><div class="field"><label for="dynamic-what">Who and what will you ask?</label><textarea id="dynamic-what" data-interview="dynamicWhat"></textarea></div><div class="field"><label for="dynamic-where">Where and during what action?</label><textarea id="dynamic-where" data-interview="dynamicWhere"></textarea></div><div class="field"><label for="dynamic-purpose">What story purpose will it serve?</label><textarea id="dynamic-purpose" data-interview="dynamicPurpose"></textarea></div></fieldset>
+            <fieldset class="relationship-field"><legend>Relationship to the scenes</legend><div class="field"><label for="interview-relationship">How will interview material connect, clarify, or contrast with what the audience observes?</label><textarea id="interview-relationship" data-interview="relationship"></textarea></div></fieldset>
+          </form>
+          <section class="interview-summary" aria-labelledby="interview-summary-title"><h3 id="interview-summary-title">Interview placement by scene</h3><div id="scene-interview-summary"></div></section>
+        </section>
+
+        <section id="sequence-panel" class="panel" aria-labelledby="sequence-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 5 · Sequence and export</p><h2 id="sequence-title" tabindex="-1">Arrange the scenes to tell the story</h2></div>
+            <p>Move scenes earlier or later. Look for progression: what the audience learns, feels, expects, and understands should develop across the sequence.</p>
+          </div>
+          <div id="student-sequence" class="student-sequence"></div>
+          <form id="reflection-form" class="reflection-fields" novalidate></form>
+          <div class="summary-actions">
+            <button id="copy-plan" type="button">Copy plan</button>
+            <button id="download-plan" type="button">Download .txt</button>
+            <button id="print-plan" type="button">Print / Save PDF</button>
+          </div>
+          <article id="plan-preview" class="plan-preview" aria-labelledby="preview-title"><h3 id="preview-title">Your scene plan summary</h3><div id="preview-content"></div></article>
+        </section>
+
+        <div class="activity-controls">
+          <button id="previous-step" type="button">← Previous part</button>
+          <button id="next-step" type="button">Next part →</button>
+        </div>
+      </section>
+
+      <section class="data-controls" aria-labelledby="data-title"><h2 id="data-title">Your saved work</h2><p>Reset permanently deletes this activity’s saved writing and choices from this browser.</p><button id="reset-activity" class="danger-button" type="button">Reset and delete my work</button></section>
+    </main>
+
+    <footer><p>DOC 515 · Foundations of Documentary Filmmaking</p><p>Editable content: <code>data/scene-planning-data.json</code></p></footer>
+    <script src="core.js?v=1"></script>
+    <script src="app.js?v=1" defer></script>
+  </body>
+</html>
