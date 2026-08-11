@@ -1,0 +1,131 @@
+{
+  "title": "Scene Planning Lab",
+  "navigation": ["Scene essentials", "Read an example", "Build your scene list", "Place interviews", "Sequence and export"],
+  "sceneEssentials": [
+    {
+      "id": "action",
+      "label": "Present-time action",
+      "question": "What is happening that the camera and microphone can witness?",
+      "explanation": "A scene unfolds through observable behavior or encounter. Background information may help the audience, but it is not a scene until something happens in time."
+    },
+    {
+      "id": "place",
+      "label": "Specific place and time",
+      "question": "Where and when does the event take place?",
+      "explanation": "A scene has boundaries. Naming the location, time, and conditions makes the event filmable and helps the filmmaker anticipate image, sound, access, and change."
+    },
+    {
+      "id": "intention",
+      "label": "Contributor intention",
+      "question": "What does the contributor want or need in this moment?",
+      "explanation": "Intention gives action direction. It can be practical, emotional, relational, or uncertain, but it helps the audience understand why the moment matters."
+    },
+    {
+      "id": "pressure",
+      "label": "Pressure or uncertainty",
+      "question": "What could change, fail, be decided, or be discovered?",
+      "explanation": "A scene needs possibility. The pressure may be quiet, but something must remain unresolved long enough for the audience to pay attention."
+    },
+    {
+      "id": "evidence",
+      "label": "Visual and sound evidence",
+      "question": "What can the audience see and hear for itself?",
+      "explanation": "Documentary scenes make claims through evidence: behavior, objects, reactions, voices, spaces, rhythms, interruptions, and environmental sound."
+    },
+    {
+      "id": "consequence",
+      "label": "Story consequence",
+      "question": "What is different by the end of the scene?",
+      "explanation": "A scene earns its place when it changes knowledge, feeling, relationship, direction, or stakes. The change may be small, but it should affect what comes next."
+    }
+  ],
+  "sceneTests": [
+    {
+      "id": "topic",
+      "label": "The station has served the neighborhood for thirty years.",
+      "status": "Context—not yet a scene",
+      "explanation": "This is useful background information, but no present-time event, contributor intention, or change is visible yet."
+    },
+    {
+      "id": "setup",
+      "label": "Maya sits at the radio console in the studio.",
+      "status": "A setup—not yet a complete scene",
+      "explanation": "The place and contributor are identifiable, but the action, pressure, and consequence still need to be defined."
+    },
+    {
+      "id": "scene",
+      "label": "Minutes before airtime, Maya and a volunteer trace a dead cable while the opening music continues to count down.",
+      "status": "A filmable scene",
+      "explanation": "There is present-time action, a specific place and time, an intention, visible pressure, audiovisual evidence, and a possible change in outcome."
+    }
+  ],
+  "example": {
+    "title": "The Last Local Broadcast",
+    "subject": "A volunteer-run community radio station facing the end of its lease.",
+    "contributor": "Maya Alvarez, the host responsible for the station's final live program.",
+    "storyQuestion": "Can Maya complete the last broadcast while deciding what the station's ending means for its listeners?",
+    "canonicalOrder": ["preparation", "complication", "broadcast", "aftermath"],
+    "scenes": [
+      {
+        "id": "preparation",
+        "title": "Preparing the final program",
+        "image": "../scene-story-lab/images/scene-1-preparation.png",
+        "alt": "Fictional community-radio host organizing notes and records before a broadcast",
+        "summary": "Maya chooses music, arranges listener messages, and rehearses the opening in the nearly empty studio.",
+        "role": "Establishes the contributor, ritual, place, and stakes.",
+        "turn": "Preparation becomes emotionally difficult when Maya reaches the final listener message.",
+        "interview": "Static interview after preparation: Maya explains what the station has meant to her."
+      },
+      {
+        "id": "complication",
+        "title": "The signal chain fails",
+        "image": "../scene-story-lab/images/scene-2-complication.png",
+        "alt": "Fictional radio host and volunteer producer checking a cable at the studio console",
+        "summary": "A microphone channel fails shortly before airtime, forcing Maya and a volunteer to diagnose the problem.",
+        "role": "Introduces pressure and makes the broadcast uncertain.",
+        "turn": "Maya abandons the planned setup and chooses a simpler backup microphone.",
+        "interview": "Dynamic interview during the repair: short questions reveal the decision without stopping the action."
+      },
+      {
+        "id": "broadcast",
+        "title": "The final live hour",
+        "image": "../scene-story-lab/images/scene-3-live-response.png",
+        "alt": "Fictional community-radio host speaking live while a volunteer producer monitors equipment",
+        "summary": "Maya broadcasts listener messages while the volunteer monitors the repaired signal.",
+        "role": "Delivers the central encounter and tests whether the plan can hold.",
+        "turn": "A caller changes Maya's prepared ending and she responds live.",
+        "interview": "No formal interview: the broadcast and reactions are the primary scene evidence."
+      },
+      {
+        "id": "aftermath",
+        "title": "After the transmitter goes quiet",
+        "image": "../scene-story-lab/images/scene-4-aftermath.png",
+        "alt": "Fictional radio host alone in the studio after the final broadcast",
+        "summary": "Maya removes her headphones, saves the recording, and walks through the silent studio.",
+        "role": "Shows consequence and gives the story a changed emotional state.",
+        "turn": "Maya decides to preserve the final program as the beginning of a community archive.",
+        "interview": "Static interview in the silent studio: reflection follows observable aftermath."
+      }
+    ]
+  },
+  "sceneRoles": [
+    "Introduce contributor and world",
+    "Reveal routine or relationship",
+    "Introduce pressure or obstacle",
+    "Develop action or investigation",
+    "Force a decision",
+    "Show consequence or change",
+    "Create transition or ending"
+  ],
+  "interviewModes": [
+    {"value": "none", "label": "No interview in this scene"},
+    {"value": "static", "label": "Static interview"},
+    {"value": "dynamic", "label": "Dynamic interview during action"},
+    {"value": "both", "label": "Static and dynamic interview material"}
+  ],
+  "reflectionPrompts": [
+    {"id": "orderReason", "label": "Why does this scene order help the audience follow the story?"},
+    {"id": "crucialScene", "label": "Which scene is crucial—and what would the film lose without it?"},
+    {"id": "missingEvidence", "label": "What evidence, transition, ending, or pickup may still be missing?"}
+  ]
+}
