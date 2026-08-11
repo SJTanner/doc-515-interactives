@@ -18,7 +18,8 @@
 
   function createState(data) {
     return {
-      currentStep: 0,
+      contentRevision: data.revision || "",
+      currentStep: 1,
       selectedEssential: data.sceneEssentials[0].id,
       selectedExampleTest: data.sceneTests[0].id,
       exampleOrder: data.example.scenes.map(function (scene) { return scene.id; }),
@@ -51,7 +52,10 @@
       : [];
     validIds.forEach(function (id) { if (!order.includes(id)) order.push(id); });
     return {
-      currentStep: Math.max(0, Math.min(Number(saved.currentStep) || 0, data.navigation.length - 1)),
+      contentRevision: data.revision || "",
+      currentStep: saved.contentRevision === data.revision
+        ? Math.max(0, Math.min(Number(saved.currentStep) || 0, data.navigation.length - 1))
+        : 1,
       selectedEssential: data.sceneEssentials.some(function (item) { return item.id === saved.selectedEssential; }) ? saved.selectedEssential : fresh.selectedEssential,
       selectedExampleTest: data.sceneTests.some(function (item) { return item.id === saved.selectedExampleTest; }) ? saved.selectedExampleTest : fresh.selectedExampleTest,
       exampleOrder: savedExampleOrder.length === validExampleIds.length ? savedExampleOrder : fresh.exampleOrder,
