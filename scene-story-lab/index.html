@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A private, non-scored scene and story planning lab for DOC 515.">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="data:,">
+    <title>Scene to Story Lab — DOC 515</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+  </head>
+  <body>
+    <a class="skip-link" href="#activity">Skip to activity</a>
+    <header class="site-header">
+      <a class="course-mark" href="../">DOC 515</a>
+      <p>Lesson 5 · Activity 2</p>
+      <p id="save-status" class="save-status" role="status" aria-live="polite">Ready</p>
+    </header>
+
+    <main id="activity" tabindex="-1">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Activity 2</p>
+          <h1 id="page-title">Scene to Story Lab</h1>
+          <p class="lede">Move from the smallest recorded unit to a documentary story: <strong>shot → sequence → scene → story.</strong> Examine what makes a scene do story work, then plan scenes for your own short documentary.</p>
+          <div class="privacy-note">
+            <strong>Private by design.</strong> No login, submission, analytics, or numerical score. Your writing stays in this browser unless you copy, download, or print it. Do not enter private contact details.
+          </div>
+        </div>
+        <figure class="hero-frame">
+          <img src="images/scene-3-live-response.png" alt="Fictional community-radio host speaking into a microphone while a volunteer producer works on a cable during a live broadcast">
+          <figcaption>Fictional teaching example · The Last Local Broadcast</figcaption>
+        </figure>
+      </section>
+
+      <div id="load-error" class="error-panel" role="alert" hidden></div>
+
+      <section id="lab" hidden>
+        <nav class="step-nav" aria-label="Activity sections"><ol id="step-list"></ol></nav>
+
+        <section id="learn-panel" class="panel" aria-labelledby="learn-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Part 1 · See the scale</p>
+              <h2 id="learn-title">From a shot to a story</h2>
+            </div>
+            <p>Choose each level to see what it contributes. Bigger units contain smaller ones, but they add meaning—not simply duration.</p>
+          </div>
+          <div id="scale-explorer" class="scale-explorer"></div>
+          <div id="scale-detail" class="scale-detail" aria-live="polite"></div>
+        </section>
+
+        <section id="anatomy-panel" class="panel" aria-labelledby="anatomy-title" hidden>
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Part 2 · Read a scene</p>
+              <h2 id="anatomy-title">A scene has dramatic movement</h2>
+            </div>
+            <p>A scene is more than a location or a set of attractive shots. Reveal the five elements in the example below.</p>
+          </div>
+          <div class="anatomy-layout">
+            <figure class="story-frame">
+              <img src="images/scene-2-complication.png" alt="Fictional radio host testing a cable at the console while a volunteer producer arrives with equipment">
+              <figcaption>Scene 2 · A technical problem changes the plan.</figcaption>
+            </figure>
+            <div>
+              <div id="anatomy-controls" class="anatomy-controls"></div>
+              <article id="anatomy-detail" class="anatomy-detail" aria-live="polite">
+                <p>Select an element to reveal how it operates in this scene.</p>
+              </article>
+              <p id="anatomy-status" class="narrative-feedback" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="story-panel" class="panel" aria-labelledby="story-title" hidden>
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Part 3 · Build the story</p>
+              <h2 id="story-title">Scenes create a meaningful progression</h2>
+            </div>
+            <p>Explore the four scenes, then use the arrow buttons to test how changing their order changes the story proposal.</p>
+          </div>
+          <div id="story-scenes" class="story-scenes"></div>
+          <p id="order-feedback" class="narrative-feedback" role="status" aria-live="polite"></p>
+          <aside class="scene-test">
+            <h3>The documentary scene test</h3>
+            <ul id="scene-test-list"></ul>
+            <p>If these questions cannot yet be answered, you may have a topic, interview, location, or shot list—but not yet a scene.</p>
+          </aside>
+        </section>
+
+        <section id="plan-panel" class="panel" aria-labelledby="plan-title" hidden>
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Part 4 · Apply it</p>
+              <h2 id="plan-title">Plan scenes for your film</h2>
+            </div>
+            <p>Propose three filmable scenes. Treat each as a present-time event that could change what the audience understands or feels.</p>
+          </div>
+          <form id="scene-form" novalidate><div id="fields"></div></form>
+        </section>
+
+        <section id="reflection-panel" class="panel" aria-labelledby="reflection-title" hidden>
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Part 5 · Reflect and export</p>
+              <h2 id="reflection-title">Your scene-to-story plan</h2>
+            </div>
+            <p>Review the whole plan below. You can return to any section and revise without starting over.</p>
+          </div>
+          <div class="summary-actions">
+            <button id="copy-plan" type="button">Copy plan</button>
+            <button id="download-plan" type="button">Download .txt</button>
+            <button id="print-plan" type="button">Print / Save PDF</button>
+          </div>
+          <article id="plan-preview" class="plan-preview"></article>
+        </section>
+
+        <div class="activity-controls">
+          <button id="previous-step" type="button">← Previous part</button>
+          <button id="next-step" type="button">Next part →</button>
+        </div>
+      </section>
+
+      <section class="data-controls" aria-labelledby="data-title">
+        <h2 id="data-title">Your saved work</h2>
+        <p>Reset permanently deletes this activity’s saved writing and choices from this browser.</p>
+        <button id="reset-activity" class="danger-button" type="button">Reset and delete my work</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>DOC 515 · Foundations of Documentary Filmmaking</p>
+      <p>Editable content: <code>data/scene-story-data.json</code></p>
+    </footer>
+    <script src="core.js?v=1"></script>
+    <script src="app.js?v=1" defer></script>
+  </body>
+</html>
