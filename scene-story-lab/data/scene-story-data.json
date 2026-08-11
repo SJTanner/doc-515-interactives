@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "navigation": ["Scale", "Scene anatomy", "Story order", "Your scenes", "Reflect & export"],
+  "scale": [
+    {
+      "id": "shot",
+      "label": "Shot",
+      "short": "One continuous unit of observation",
+      "definition": "A shot records one continuous view or piece of evidence.",
+      "example": "A close shot observes the host plugging a cable into the console.",
+      "question": "What can this single view let the audience notice?"
+    },
+    {
+      "id": "sequence",
+      "label": "Sequence",
+      "short": "Shots linked by action or idea",
+      "definition": "A sequence connects several shots so an action, process, place, or idea becomes legible.",
+      "example": "Wide studio, cable close-up, host listening, producer checking a connection: together they show the search for the fault.",
+      "question": "How do these shots connect, and what process do they reveal?"
+    },
+    {
+      "id": "scene",
+      "label": "Scene",
+      "short": "A present-time event with a turn",
+      "definition": "A scene is a dramatic unit in a specific time and place: someone wants or needs something, action unfolds under pressure, and the situation changes.",
+      "example": "Minutes before airtime, the host and producer discover a failed connection and choose a temporary workaround.",
+      "question": "What is happening now, what is uncertain, and what becomes different?"
+    },
+    {
+      "id": "story",
+      "label": "Story",
+      "short": "Scenes arranged into meaningful change",
+      "definition": "A story gives scenes a consequential progression so the audience experiences development, tension, discovery, and change.",
+      "example": "Preparation becomes a technical test, then a live act of improvisation, and finally a quiet ending that reframes what the station means.",
+      "question": "Why this scene now, and how does it change what the next scene means?"
+    }
+  ],
+  "example": {
+    "title": "The Last Local Broadcast",
+    "disclosure": "A fictional teaching example created for this lab. It is not a record of real people or events.",
+    "anatomy": [
+      {
+        "id": "situation",
+        "label": "Situation",
+        "question": "Where and when are we?",
+        "answer": "Inside a community-radio studio shortly before its final broadcast from this location. The deadline gives the moment a boundary."
+      },
+      {
+        "id": "intention",
+        "label": "Intention",
+        "question": "What does someone want or need?",
+        "answer": "The host needs to begin the final broadcast on time and make it feel continuous for listeners."
+      },
+      {
+        "id": "action",
+        "label": "Action / encounter",
+        "question": "What can the camera and microphone witness?",
+        "answer": "She tests cables and console channels while the volunteer producer arrives, listens, checks equipment, and proposes a workaround."
+      },
+      {
+        "id": "pressure",
+        "label": "Pressure",
+        "question": "What is uncertain or at stake?",
+        "answer": "A connection is failing and airtime is approaching. The audience does not yet know whether the broadcast can begin."
+      },
+      {
+        "id": "turn",
+        "label": "Turn / change",
+        "question": "What is different at the end?",
+        "answer": "They stop trying to restore the original setup and commit to a temporary cable route. The problem becomes a live test of collaboration."
+      }
+    ],
+    "scenes": [
+      {
+        "id": "preparation",
+        "shortTitle": "Preparation",
+        "image": "images/scene-1-preparation.png",
+        "alt": "Fictional radio host arranging cue cards and headphones in a quiet studio before dawn",
+        "summary": "Before dawn, the host prepares the studio and cue cards for a final broadcast from the old location.",
+        "turn": "Routine preparation gains meaning when we understand that this broadcast is the last one here.",
+        "storyWork": "Establishes person, place, intention, ritual, and the expectation of a normal start."
+      },
+      {
+        "id": "complication",
+        "shortTitle": "Complication",
+        "image": "images/scene-2-complication.png",
+        "alt": "Fictional radio host testing a console cable as a volunteer producer arrives with equipment",
+        "summary": "A failed connection interrupts preparation. The host and volunteer producer test the system as airtime approaches.",
+        "turn": "They abandon the normal setup and choose a temporary workaround.",
+        "storyWork": "Introduces pressure, relationship, decision, and a question that must be answered through action."
+      },
+      {
+        "id": "response",
+        "shortTitle": "Live response",
+        "image": "images/scene-3-live-response.png",
+        "alt": "Fictional radio host broadcasting while a volunteer producer signals that a cable workaround is holding",
+        "summary": "The broadcast begins while the producer holds the improvised connection together and the host continues on air.",
+        "turn": "The workaround holds; a technical crisis becomes an act of calm, shared performance.",
+        "storyWork": "Pays off the earlier uncertainty and reveals character through behavior rather than explanation."
+      },
+      {
+        "id": "aftermath",
+        "shortTitle": "Aftermath",
+        "image": "images/scene-4-aftermath.png",
+        "alt": "Fictional radio host alone in morning light turning off the final illuminated console control",
+        "summary": "After the sign-off, the host removes her headphones and turns off the final illuminated control.",
+        "turn": "The active studio becomes a quiet room; the final broadcast is now an event that has passed.",
+        "storyWork": "Lets the audience feel the change and consider what may continue beyond this place."
+      }
+    ],
+    "orderFeedback": {
+      "canonical": "This order creates a clear causal progression: preparation → complication → response → aftermath. Each scene changes the conditions inherited by the next.",
+      "alternate": "Beginning with “{first}” and ending with “{last}” creates a different story proposal. Ask what the audience knows at each point, what has caused the next event, and whether the final scene now feels like a consequence rather than simply a later image."
+    }
+  },
+  "sceneTest": [
+    "Can you name the specific time and place?",
+    "Does someone want, need, attempt, decide, resist, discover, or respond?",
+    "Can the camera and microphone witness action or encounter—not only explanation?",
+    "Is something uncertain, difficult, at stake, or capable of changing?",
+    "Is the situation different by the end?",
+    "Does that change affect what another scene can mean?"
+  ],
+  "planSections": [
+    {
+      "kicker": "Story compass",
+      "title": "The film you are building",
+      "introduction": "Keep the topic brief. Concentrate on the person, situation, and change the film can actually follow.",
+      "fields": [
+        {"id":"workingTitle","label":"Working title","help":"A provisional title is enough."},
+        {"id":"storyCenter","label":"Who or what is at the center of the film?","help":"Name a person, relationship, group, or specific process—not a broad issue alone."},
+        {"id":"storyQuestion","label":"What developing question could connect the scenes?","help":"Write a question the film can explore through events, choices, encounters, and change rather than answer immediately."}
+      ]
+    },
+    {
+      "kicker": "Scene 1",
+      "title": "Opening situation",
+      "introduction": "Place the audience inside an event. Let action introduce the person, world, and immediate intention.",
+      "fields": [
+        {"id":"scene1Situation","label":"Specific time and place","help":"When and where could this event unfold?"},
+        {"id":"scene1Action","label":"Person, intention, and observable action","help":"What do they want or need here, and what can we witness them doing?"},
+        {"id":"scene1Pressure","label":"Pressure or uncertainty","help":"What could interrupt, complicate, reveal, or change the situation?"},
+        {"id":"scene1Turn","label":"Scene turn","help":"What might be different by the end, even if the change is small?"},
+        {"id":"scene1Shots","label":"Possible shot sequence","help":"List a purposeful chain of shots that could make the action legible. Avoid treating this as a decorative coverage list."}
+      ]
+    },
+    {
+      "kicker": "Scene 2",
+      "title": "Development or encounter",
+      "introduction": "The second scene should inherit something from the first and add pressure, knowledge, relationship, or a consequential choice.",
+      "fields": [
+        {"id":"scene2Situation","label":"Specific time and place","help":"Where can the story develop through a new event or encounter?"},
+        {"id":"scene2Action","label":"Person, intention, and observable action","help":"What is being attempted, negotiated, tested, remembered through action, or decided?"},
+        {"id":"scene2Pressure","label":"Pressure or uncertainty","help":"What prevents the outcome from being automatic?"},
+        {"id":"scene2Turn","label":"Scene turn","help":"What knowledge, relationship, plan, or condition could change?"},
+        {"id":"scene2Shots","label":"Possible shot sequence","help":"List the views and sounds needed to understand action, reaction, space, and change."}
+      ]
+    },
+    {
+      "kicker": "Scene 3",
+      "title": "Consequence or change",
+      "introduction": "Do not force a grand resolution. Find an event that lets the audience experience what the earlier scenes have made possible or newly uncertain.",
+      "fields": [
+        {"id":"scene3Situation","label":"Specific time and place","help":"Where could a consequence, result, decision, departure, return, or changed understanding become visible?"},
+        {"id":"scene3Action","label":"Person, intention, and observable action","help":"What is happening now—not merely being summarized after the fact?"},
+        {"id":"scene3Pressure","label":"Pressure or uncertainty","help":"What remains open, difficult, or capable of changing?"},
+        {"id":"scene3Turn","label":"Scene turn","help":"What is different by the end, and how does that change the meaning of the film?"},
+        {"id":"scene3Shots","label":"Possible shot sequence","help":"List shots and sounds that let the ending be experienced rather than explained."}
+      ]
+    },
+    {
+      "kicker": "Reflection",
+      "title": "Test the story progression",
+      "introduction": "Use the answers to decide what to research, arrange, observe, or revise before the shoot.",
+      "fields": [
+        {"id":"sceneConnection","label":"How does each scene change the conditions for the next?","help":"Describe cause, consequence, contrast, growing knowledge, changing relationship, or another meaningful connection."},
+        {"id":"missingScene","label":"What important scene may still be missing?","help":"Name the event the audience would need to witness for the story to feel earned and understandable."},
+        {"id":"accessReality","label":"Which scene has the greatest access, consent, safety, or feasibility uncertainty?","help":"Identify the uncertainty without entering private personal details."},
+        {"id":"revisionInsight","label":"What is now clearer about the difference between a sequence and a scene?","help":"Reflect on how connected shots reveal action while a scene also produces dramatic or informational change."},
+        {"id":"nextAction","label":"Your next practical action","help":"State one achievable access conversation, observation, location visit, scene test, or revision to complete next."}
+      ]
+    }
+  ],
+  "export": {
+    "title": "SCENE-TO-STORY PLAN",
+    "disclosure": "Prepared with the DOC 515 Scene to Story Lab. This is a planning document, not proof of access, consent, permission, or safety review."
+  }
+}
