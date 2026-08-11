@@ -42,69 +42,69 @@
   "sceneTests": [
     {
       "id": "topic",
-      "label": "The station has served the neighborhood for thirty years.",
+      "label": "Food rescue helps redistribute surplus groceries across the neighborhood.",
       "status": "Context—not yet a scene",
       "explanation": "This is useful background information, but no present-time event, contributor intention, or change is visible yet."
     },
     {
       "id": "setup",
-      "label": "Maya sits at the radio console in the studio.",
+      "label": "Nia stands beside a loaded cargo bicycle outside the food-rescue depot.",
       "status": "A setup—not yet a complete scene",
       "explanation": "The place and contributor are identifiable, but the action, pressure, and consequence still need to be defined."
     },
     {
       "id": "scene",
-      "label": "Minutes before airtime, Maya and a volunteer trace a dead cable while the opening music continues to count down.",
+      "label": "When a storm closes the bridge on her delivery route, Nia stops the loaded cargo bike, checks an alternate path, and decides whether the longer route is still safe.",
       "status": "A filmable scene",
       "explanation": "There is present-time action, a specific place and time, an intention, visible pressure, audiovisual evidence, and a possible change in outcome."
     }
   ],
   "example": {
-    "title": "The Last Local Broadcast",
-    "subject": "A volunteer-run community radio station facing the end of its lease.",
-    "contributor": "Maya Alvarez, the host responsible for the station's final live program.",
-    "storyQuestion": "Can Maya complete the last broadcast while deciding what the station's ending means for its listeners?",
-    "canonicalOrder": ["preparation", "complication", "broadcast", "aftermath"],
+    "title": "The Last Mile Before the Storm",
+    "subject": "A volunteer food-rescue team trying to complete its final neighborhood delivery before a fast-moving storm closes key routes.",
+    "contributor": "Nia Brooks, the cargo-bike coordinator responsible for delivering surplus groceries to a senior-housing community.",
+    "storyQuestion": "Can Nia respond to a blocked route and complete the delivery before conditions become unsafe?",
+    "canonicalOrder": ["loading", "closure", "reroute", "handoff"],
     "scenes": [
       {
-        "id": "preparation",
-        "title": "Preparing the final program",
-        "image": "../scene-story-lab/images/scene-1-preparation.png",
-        "alt": "Fictional community-radio host organizing notes and records before a broadcast",
-        "summary": "Maya chooses music, arranges listener messages, and rehearses the opening in the nearly empty studio.",
-        "role": "Establishes the contributor, ritual, place, and stakes.",
-        "turn": "Preparation becomes emotionally difficult when Maya reaches the final listener message.",
-        "interview": "Static interview after preparation: Maya explains what the station has meant to her."
+        "id": "loading",
+        "title": "Loading against the weather clock",
+        "image": "images/storm-delivery-1-loading.png",
+        "alt": "Fictional food-rescue coordinator securing grocery crates on a cargo bicycle as storm clouds gather",
+        "summary": "Nia and the depot volunteers sort the final groceries, balance the load, and tighten the cargo straps as the first rain arrives.",
+        "role": "Establishes the contributor, mission, physical process, route, and deadline.",
+        "turn": "Inciting condition: a weather alert shortens the safe delivery window, turning routine preparation into a timed attempt.",
+        "interview": "Brief static interview before departure: Nia identifies the destination, the route, and what must happen before conditions worsen."
       },
       {
-        "id": "complication",
-        "title": "The signal chain fails",
-        "image": "../scene-story-lab/images/scene-2-complication.png",
-        "alt": "Fictional radio host and volunteer producer checking a cable at the studio console",
-        "summary": "A microphone channel fails shortly before airtime, forcing Maya and a volunteer to diagnose the problem.",
-        "role": "Introduces pressure and makes the broadcast uncertain.",
-        "turn": "Maya abandons the planned setup and chooses a simpler backup microphone.",
-        "interview": "Dynamic interview during the repair: short questions reveal the decision without stopping the action."
+        "id": "closure",
+        "title": "The bridge is closed",
+        "image": "images/storm-delivery-2-bridge.png",
+        "alt": "Fictional cargo-bike coordinator stopped by a bridge closure while checking an alternate route in the rain",
+        "summary": "Nia reaches the bridge and finds a barrier across the route. She checks the map, confirms the closure, and calls ahead to the residents.",
+        "role": "Introduces the central obstacle and stops the expected forward movement.",
+        "turn": "First major plot point: the planned route is impossible, so Nia chooses a longer pedestrian underpass rather than abandon the delivery.",
+        "interview": "Dynamic questions at the barrier reveal what changed, what the alternatives are, and why Nia chooses the reroute."
       },
       {
-        "id": "broadcast",
-        "title": "The final live hour",
-        "image": "../scene-story-lab/images/scene-3-live-response.png",
-        "alt": "Fictional community-radio host speaking live while a volunteer producer monitors equipment",
-        "summary": "Maya broadcasts listener messages while the volunteer monitors the repaired signal.",
-        "role": "Delivers the central encounter and tests whether the plan can hold.",
-        "turn": "A caller changes Maya's prepared ending and she responds live.",
-        "interview": "No formal interview: the broadcast and reactions are the primary scene evidence."
+        "id": "reroute",
+        "title": "The load shifts on the reroute",
+        "image": "images/storm-delivery-3-underpass.png",
+        "alt": "Fictional food-rescue coordinator securing a loose crate strap while pushing a loaded cargo bicycle up a wet underpass ramp",
+        "summary": "Nia and a volunteer push the bicycle up the wet underpass ramp. A strap loosens, forcing them to stop, stabilize the bike, and secure the load.",
+        "role": "Escalates the physical challenge and tests whether the chosen solution can work.",
+        "turn": "Crisis and decision: Nia pauses forward movement to protect the food and the team, then continues only after the load is safe.",
+        "interview": "No formal interview during the most demanding action; breathing, rain, wheels, straps, and brief coordination carry the scene."
       },
       {
-        "id": "aftermath",
-        "title": "After the transmitter goes quiet",
-        "image": "../scene-story-lab/images/scene-4-aftermath.png",
-        "alt": "Fictional radio host alone in the studio after the final broadcast",
-        "summary": "Maya removes her headphones, saves the recording, and walks through the silent studio.",
-        "role": "Shows consequence and gives the story a changed emotional state.",
-        "turn": "Maya decides to preserve the final program as the beginning of a community archive.",
-        "interview": "Static interview in the silent studio: reflection follows observable aftermath."
+        "id": "handoff",
+        "title": "The final handoff",
+        "image": "images/storm-delivery-4-handoff.png",
+        "alt": "Fictional food-rescue coordinator handing a grocery crate to residents at a senior-housing entrance during heavy rain",
+        "summary": "Nia reaches the covered entrance and shares the weight of the final crate with waiting residents as others begin organizing the groceries inside.",
+        "role": "Provides the climax, resolves the delivery question, and shows the practical consequence of the journey.",
+        "turn": "Climax and resolution: the nearly empty cargo box confirms the delivery is complete, while the residents' actions reveal what the arrival makes possible.",
+        "interview": "Static interview after the handoff, under shelter: Nia reflects on the reroute only after the outcome has been observed."
       }
     ]
   },
