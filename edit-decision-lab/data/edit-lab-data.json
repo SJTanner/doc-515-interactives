@@ -1,0 +1,72 @@
+{
+  "revision": "2026-08-13-v1",
+  "title": "Edit Decision Lab",
+  "courseLabel": "DOC 515 · Lesson 7 · Activity 1",
+  "navigation": [
+    {"id": "protect", "label": "Protect the material"},
+    {"id": "select", "label": "Log and select"},
+    {"id": "scene", "label": "Build a scene"},
+    {"id": "structure", "label": "Shape the rough cut"},
+    {"id": "review", "label": "Review and export"}
+  ],
+  "mediaChecklist": [
+    {"id": "verified-copy", "label": "Every camera card and audio source has been copied and opened."},
+    {"id": "second-backup", "label": "A second verified backup exists on a separate device."},
+    {"id": "originals-unchanged", "label": "Original media remains unchanged and separate from working files."},
+    {"id": "sync-checked", "label": "Picture, production sound, and sync relationships have been checked."},
+    {"id": "problems-logged", "label": "Missing, damaged, silent, or incomplete material is recorded in a problem log."},
+    {"id": "cards-held", "label": "Recording media will not be erased until backups and working files are verified."}
+  ],
+  "principles": [
+    {"id": "evidence", "title": "Edit from evidence", "text": "Let recorded behavior, words, actions, environments, and sound determine what the film can honestly claim."},
+    {"id": "relationship", "title": "Meaning lives between shots", "text": "A shot changes when it follows another. Review the relationship you create, not only the quality of each isolated image."},
+    {"id": "scene", "title": "Complete the dramatic event", "text": "A scene needs enough action, reaction, detail, voice, and sound for the audience to experience what changes."},
+    {"id": "ethics", "title": "Preserve context", "text": "Do not manufacture chronology, causality, consent, or emotion that the recorded situation cannot support."}
+  ],
+  "clipFunctions": [
+    {"value": "", "label": "Choose a possible function"},
+    {"value": "orientation", "label": "Orient the audience"},
+    {"value": "action", "label": "Carry action or process"},
+    {"value": "character", "label": "Reveal character or relationship"},
+    {"value": "turn", "label": "Create a turn, obstacle, or decision"},
+    {"value": "evidence", "label": "Provide visual or sound evidence"},
+    {"value": "transition", "label": "Bridge time, place, or idea"},
+    {"value": "ending", "label": "Create consequence, resolution, or ending"}
+  ],
+  "example": {
+    "title": "After the Tide",
+    "disclosure": "Fictional coastal-cleanup teaching material; not documentary evidence.",
+    "question": "Can organizer Mara keep volunteers safe, adapt to worsening weather, and leave the shoreline meaningfully changed?",
+    "clips": [
+      {"id": "shore-dawn", "label": "Empty shoreline before dawn", "timecode": "00:00:18", "description": "Wind moves discarded plastic along the tide line before anyone arrives.", "sound": "Wind, surf, loose plastic", "suggestedFunction": "orientation"},
+      {"id": "mara-arrives", "label": "Mara arrives and unlocks the equipment trailer", "timecode": "00:03:42", "description": "Mara checks the sky, opens the trailer, and begins unloading gloves and collection bags.", "sound": "Trailer latch, gulls, footsteps", "suggestedFunction": "character"},
+      {"id": "safety-briefing", "label": "Volunteer safety briefing", "timecode": "00:14:09", "description": "Mara identifies sharp waste, the incoming storm, and the agreed stopping conditions.", "sound": "Mara's voice, wind under speech", "suggestedFunction": "evidence"},
+      {"id": "sorting-action", "label": "Cleanup and sorting sequence", "timecode": "00:28:31", "description": "Hands collect, weigh, separate, and bag material while volunteers communicate across the beach.", "sound": "Bags, footsteps, short exchanges", "suggestedFunction": "action"},
+      {"id": "weather-turn", "label": "Weather interrupts the plan", "timecode": "00:51:22", "description": "Rain begins, one collection station collapses, and a volunteer asks whether the group should stop.", "sound": "Rain, flapping tarp, question off camera", "suggestedFunction": "turn"},
+      {"id": "mara-decision", "label": "Mara changes the operation", "timecode": "00:54:06", "description": "Mara closes the exposed station and moves the group to the sheltered end of the beach.", "sound": "Instructions, rain, wheels on gravel", "suggestedFunction": "turn"},
+      {"id": "final-weigh", "label": "Final weigh-in under shelter", "timecode": "01:12:44", "description": "The team weighs the recovered material and compares it with the morning estimate.", "sound": "Scale click, group reaction, quiet conversation", "suggestedFunction": "evidence"},
+      {"id": "mara-reflects", "label": "Mara reflects after the volunteers leave", "timecode": "01:21:10", "description": "Mara considers what the team achieved and what the tide may return overnight.", "sound": "Interview voice, distant surf", "suggestedFunction": "ending"},
+      {"id": "shore-after", "label": "Shoreline after the cleanup", "timecode": "01:27:36", "description": "The beach is quieter and visibly changed, but small fragments remain near the water.", "sound": "Surf and fading wind", "suggestedFunction": "ending"}
+    ],
+    "sceneOrder": ["shore-dawn", "mara-arrives", "safety-briefing", "sorting-action", "weather-turn", "mara-decision", "final-weigh", "mara-reflects", "shore-after"],
+    "roughCutScenes": [
+      {"id": "morning-question", "title": "Before the volunteers arrive", "summary": "The shore, Mara, and the day's practical and ethical question are established."},
+      {"id": "work-begins", "title": "The cleanup becomes collective action", "summary": "The briefing becomes behavior as the volunteers collect and sort material."},
+      {"id": "plan-breaks", "title": "Weather tests the plan", "summary": "Conditions force a safety decision and reveal Mara's leadership."},
+      {"id": "what-changed", "title": "Evidence and consequence", "summary": "The final weigh-in, reflection, and changed shoreline answer the opening question without claiming permanence."}
+    ],
+    "modelRoughCutOrder": ["morning-question", "work-begins", "plan-breaks", "what-changed"]
+  },
+  "gapFields": [
+    {"id": "missingEvidence", "label": "What essential evidence or reaction is missing?"},
+    {"id": "pickupPlan", "label": "What realistic pickup could strengthen the film?"},
+    {"id": "soundGap", "label": "What location sound, room tone, or transition sound is missing?"},
+    {"id": "contextRisk", "label": "Where could the current edit mislead through missing context?"}
+  ],
+  "reflectionPrompts": [
+    {"id": "storySpine", "label": "State the current story spine in one or two sentences."},
+    {"id": "pointOfView", "label": "Whose experience organizes the cut, and what perspective remains outside it?"},
+    {"id": "ethicalChoice", "label": "Name one ethical editing choice you must protect during revision."},
+    {"id": "nextRevision", "label": "What is the most important change for the next cut?"}
+  ]
+}
