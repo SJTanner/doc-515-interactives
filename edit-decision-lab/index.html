@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A private, non-scored documentary editing and rough-cut planning lab for DOC 515.">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="data:,">
+    <title>Edit Decision Lab — DOC 515</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+  </head>
+  <body>
+    <a class="skip-link" href="#activity">Skip to activity</a>
+    <header class="site-header">
+      <a class="course-mark" href="../">DOC 515</a>
+      <p>Lesson 7 · Activity 1</p>
+      <p id="save-status" class="save-status" role="status" aria-live="polite">Ready</p>
+    </header>
+
+    <main id="activity" tabindex="-1">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Activity 1</p>
+          <h1 id="page-title">Edit Decision Lab</h1>
+          <p class="lede">Protect the material, make purposeful selects, build a complete scene, shape a rough-cut structure, and identify what the next revision honestly needs.</p>
+          <div class="privacy-note"><strong>Private by design.</strong> No login, submission, analytics, or numerical score. Your choices and writing stay in this browser unless you copy, download, or print them.</div>
+        </div>
+        <div class="hero-visual" aria-label="A visual progression from camera media through selects and scenes to a rough cut">
+          <div><span>01</span> Media</div><b aria-hidden="true">→</b><div><span>02</span> Selects</div><b aria-hidden="true">→</b><div><span>03</span> Scenes</div><b aria-hidden="true">→</b><div><span>04</span> Rough cut</div>
+        </div>
+      </section>
+
+      <div id="load-error" class="error-panel" role="alert" hidden></div>
+
+      <section id="lab" hidden>
+        <nav class="step-nav" aria-label="Activity sections"><ol id="step-list"></ol></nav>
+
+        <section id="protect-panel" class="panel" aria-labelledby="protect-title">
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 1 · Protect the material</p><h2 id="protect-title" tabindex="-1">Creative freedom begins with recoverable media</h2></div>
+            <p>Use the checklist as a production record, not a score. Leave an item unchecked when it still needs verification.</p>
+          </div>
+          <div id="media-checklist" class="checklist"></div>
+          <section class="principles" aria-labelledby="principles-title">
+            <h3 id="principles-title">Four editorial principles</h3>
+            <div id="principle-controls" class="principle-controls"></div>
+            <article id="principle-detail" class="principle-detail" aria-live="polite"></article>
+          </section>
+        </section>
+
+        <section id="select-panel" class="panel" aria-labelledby="select-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 2 · Log and select</p><h2 id="select-title" tabindex="-1">Choose material for what it contributes</h2></div>
+            <p>Review the fictional clips from <em>After the Tide</em>. Include or remove each clip, name its possible function, and leave an editor note.</p>
+          </div>
+          <div id="example-frame" class="example-frame"></div>
+          <div id="clip-list" class="clip-list"></div>
+        </section>
+
+        <section id="scene-panel" class="panel" aria-labelledby="scene-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 3 · Build a scene</p><h2 id="scene-title" tabindex="-1">Let action, interruption, and consequence develop</h2></div>
+            <p>Move included clips earlier or later. The aim is not to match a hidden answer; it is to create an intelligible, honest dramatic event.</p>
+          </div>
+          <div id="scene-order" class="order-list"></div>
+          <p id="scene-feedback" class="narrative-feedback" role="status" aria-live="polite"></p>
+        </section>
+
+        <section id="structure-panel" class="panel" aria-labelledby="structure-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 4 · Shape the rough cut</p><h2 id="structure-title" tabindex="-1">Arrange scenes around a developing question</h2></div>
+            <p>Move the four scene cards, then name the evidence, pickups, sound, and context the next cut requires.</p>
+          </div>
+          <div id="rough-cut-order" class="rough-cut-order"></div>
+          <form id="gap-form" class="field-grid" novalidate></form>
+        </section>
+
+        <section id="review-panel" class="panel" aria-labelledby="review-title" hidden>
+          <div class="panel-heading">
+            <div><p class="eyebrow">Part 5 · Review and export</p><h2 id="review-title" tabindex="-1">Write the memo for the next cut</h2></div>
+            <p>Describe the film that has emerged, the perspective shaping it, the ethical choice to protect, and the most important revision.</p>
+          </div>
+          <form id="reflection-form" class="field-grid" novalidate></form>
+          <div class="summary-actions">
+            <button id="copy-memo" type="button">Copy edit memo</button>
+            <button id="download-memo" type="button">Download .txt</button>
+            <button id="print-memo" type="button">Print / Save PDF</button>
+          </div>
+          <article class="memo-preview" aria-labelledby="memo-title"><h3 id="memo-title">Your edit memo</h3><pre id="memo-preview"></pre></article>
+        </section>
+
+        <div class="activity-controls">
+          <button id="previous-step" type="button">← Previous part</button>
+          <button id="next-step" type="button">Next part →</button>
+        </div>
+      </section>
+
+      <section class="data-controls" aria-labelledby="data-title"><h2 id="data-title">Your saved work</h2><p>Reset permanently deletes this activity's saved choices and writing from this browser.</p><button id="reset-activity" class="danger-button" type="button">Reset and delete my work</button></section>
+    </main>
+
+    <footer><p>DOC 515 · Foundations of Documentary Filmmaking</p><p>Editable content: <code>data/edit-lab-data.json</code></p></footer>
+    <script src="core.js?v=2"></script>
+    <script src="app.js?v=1" defer></script>
+  </body>
+</html>
